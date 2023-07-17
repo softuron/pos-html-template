@@ -1,0 +1,149 @@
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    color: rgba(0,0,0,.6);
+    font-family: Barlow,sans-serif;
+    line-height: 1.58;
+    min-height: 100%;
+    text-align: left;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.row{
+    padding: 0;
+    margin:0;
+}
+.desk{
+    display:block;
+}
+.mob{
+    display:none;
+}
+.bar-icon{
+    text-align:right;
+    float:right;
+    font-weight:bold;
+    font-size:2rem;
+    padding:10px;
+    color:#efefef;
+    line-height:40px;
+}
+.cross-bar-icon{
+    text-align:right;
+    float:right;
+    font-weight:bold;
+    font-size:2rem;
+    padding:10px;
+    color:#efefef;
+    line-height:40px;
+    top:0;
+    right:0;
+    position: absolute;
+}
+.fix{
+    overflow: hidden;
+}
+.font0-1{font-size: 0.1rem;}.font0-2{font-size: 0.2rem;}.font0-3{font-size: 0.3rem;}.font0-4{font-size: 0.4rem;}.font0-5{font-size: 0.5rem;}.font0-6{font-size:0.6rem;}.font0-7{font-size:0.7rem}.font0-8{font-size:0.8rem;}.font0-9{font-size:0.9rem}.font1{font-size:1rem;}.font1-1{font-size:1.1rem}.font1-2{font-size:1.2rem}.font1-3{font-size:1.3rem}.font1-4{font-size:1.5rem}.font1-6{font-size:1.6rem}.font1-7{font-size:1.7rem}.font1-8{font-size:1.8rem}.font1-9{font-size:1.9rem}.font2{font-size:2rem}.font2-1{font-size:2.1rem}.font2-2{font-size:2.2rem}.font2-3{font-size:2.3rem}.font2-4{font-size:2.4rem}.font2-5{font-size:2.5rem}.font2-6{font-size:2.6rem}.font2-7{font-size:2.7rem}.font2-8{font-size:2.8rem}.font2-9{font-size:2.9rem}.font3{font-size:3rem}.font3-1{font-size:3.1rem}.font3-2{font-size:3.2rem}.font3-3{font-size:3.3rem}.font3-4{font-size:3.4rem}.font3-5{font-size:3.5rem}.font3-6{font-size:3.6rem}.font3-7{font-size:3.7rem}.font3-8{font-size:3.8rem}.font3-9{font-size:3.9rem}.font4{font-size:4rem}.font4-1{font-size:4.1rem}
+.font4-2{font-size: 4.2rem;}.font4-3{font-size: 4.3rem;}.font4-4{font-size: 4.4rem;}.font4-5{font-size:4.5rem}.font4-6{font-size:4.6rem;}.font4-7{font-size:4.7rem}.font4-8{font-size:4.8rem}.font4-9{font-size:4.9rem}.font5{font-size:5rem}.font5-1{font-size:5.1rem}.font5-2{font-size:5.2rem}.font5-3{font-size:5.2rem}.font5-3{font-size:5.3rem}.font5-4{font-size:5.3rem}.font5-4{font-size:5.4rem}.font5-5{font-size:5.5rem}.font5-6{font-size:5.6rem}.font5-7{font-size:5.7rem}.font5-8{font-size:5.8rem}.font5-9{font-size:5.9rem}.font6{font-size:6rem}.font6-1{font-size:6.1rem}.font6-2{font-size:6.2rem}.font6-3{font-size:6.3rem}.font6-4{font-size:6.4rem}.font6-5{font-size:6.5rem}.font6-6{font-size:6.6rem}.font6-7{font-size:6.7rem}.font6-8{font-size:6.8rem}.font6-9{font-size:6.9rem}.font7{font-size:7rem}.font7-1{font-size:7.1rem}.font7-2{font-size:7.2rem}.font7-3{font-size:7.3rem}.font8{font-size:8rem}.font8-1{font-size:8.1rem}
+.wd-100{
+    width:100%;
+}
+.pd-tb-30{
+    padding:30px 0px;
+}
+.pd-tb-80{
+    padding:60px 0px;
+}
+.pd-tb-90{
+    padding:90px 0px;
+}
+.pd-t-30{
+    padding-top:30px;
+}
+.pd-t-20{
+    padding-top:20px;
+}
+.pd-t-10{
+    padding-top:10px;
+}
+.pd-b-30{
+    padding-bottom:30px;
+}
+.pd-b-10{
+    padding-bottom:10px;
+}
+.pd-b-20{
+    padding-bottom:20px;
+}
+.pd-tb-10{
+    padding:10px 0px;
+}
+.pd-tb-20{
+    padding:20px 0px;
+}
+.pd-tb-35{
+    padding:35px 0px;
+}
+.pd-tb-40{
+    padding:40px 0px;
+}
+.pd-t-60-b-20{
+    padding:60px 0px 20px 0px;
+}
+.pa-all-mid{
+    padding: 0px 10%;
+    margin-top: 45%;
+    transform: translateY(-50%);
+    margin-bottom: -50%;
+}
+.pd-30{
+    padding:30px;
+}
+.t-center{
+    text-align: center;
+}
+.t-just{
+    text-align: justify;
+}
+.bg-dpink-cercle{
+    background-color: #F8B8C5;
+    padding:15px 25px;
+    border-radius: 50%;
+    margin-bottom:15px;
+}
+.bg-spink-cercle{
+    background-color: #ffbbbb;
+    padding:15px 25px;
+    border-radius: 50%;
+    margin-bottom:15px;
+}
+.desk-item h3{
+    margin-top:15px;
+}
+.full-width{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.img-full{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.over-section{
+   position: relative; 
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgb(56 56 56 / 49%)
+}

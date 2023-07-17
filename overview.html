@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Pos apps</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css">
+        <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+        <link rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--fontawosme-->
+        <link rel="stylesheet" href="icon/awsm/css/all.min.css">
+        <link rel="stylesheet" href="icon/awsm/css/fontawesome.min.css">
+        <link rel="stylesheet" href="icon/awsm/css/fontawesome.min.css">
+        <!--ionic-->
+        <link rel="stylesheet" href="icon/ionic/css/ionicons.min.css">
+        <!--Plugin-->
+        <!--Owl-->
+        <link rel="stylesheet" href="plugin/owl/dist/assets/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="plugin/owl/dist/assets/owl.carousel.min.css"/>
+        <!--main css-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/common-responsive.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu-area" id="navbar">
+                <div class="row">
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6 col-xl-3 logo">
+                        <!-- <img src="img/lg4.png" alt="MTR POS" class="lg"> -->
+                        <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 171 75.25" height="55" viewBox="0 0 171 75.25" width="110"><path d="m55.448 6.652c3.507 1.07 4.875 3.43 5.232 4.176.098-1.264-.063-3.864-2.788-5.148-2.665-1.253-6.11-.927-6.11-.927s.815 4.798 3.207 6.232c2.387 1.433 5.59.563 5.59.563-1.482-3.44-5.131-4.896-5.131-4.896z" fill="#6bbd45"/><path d="m55.918 13.333c1.971-1.604 4.179-1.681 4.609-1.792-.529-.386-2.25-1.676-4.349-.408-1.831 1.11-3.018 3.327-3.018 3.327s3.234 1.437 5.061.563c1.507-.718 2.211-2.513 2.411-3.121-2.197.004-4.714 1.431-4.714 1.431z" fill="#39b54a"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m113.616 29.703s4.986-12.026 16.542-13.71c0 0 9.343-1.504 10.495 7.355 0 0-.261 5.462-2.804 9.045l.417-3.573-1.611-6.59-6.994-2.4-8.98 2.865z" fill="#fdc117"/><path d="m138.583 49.256-9.025-4.454c-4.016-2.412-.369-4.698-.369-4.698l4.072-2.325c5.345-3.09 6.424-7.81 6.077-10.818-.313-2.725-1.178-4.047-2.375-5.231-2.465-2.441-6.53-2.769-9.587-2.166-7.084 1.395-10.408 5.445-12.325 7.801-7.042 8.669-7.145 23.407-7.145 23.407-.009 4.8.19 7.581 1.645 10.189 1.957 3.503 5.752 2.086 5.752 2.086 3.172-1.919 1.134-5.731 1.134-5.731-1.156-3.966-.681-7.635-.681-7.635.866-6.702 5.122-3.585 5.122-3.585l7.514 5.753 6.396 4.951c2.438 1.442 5.079-.136 6.163-2.443 1.404-2.985-2.368-5.101-2.368-5.101zm-19.893-9.645s-2.873 1.29-2.788-1.658c0 0 .226-6.085 6.592-10.034 0 0 1.678-1.073 4.25-.972.81.033 2.122.15 3.108 1.041 0 0 2.774 2.181.524 4.733 0 .001-3.13 3.266-11.686 6.89z" fill="#fff"/><path d="m155.411 60.162c-.038 1.038-.795 2.389-1.726 2.899-.2.11-.664.405-1.453.441-.425.019-.92-.031-1.357-.31-.421-.267-.835-.531-1.176-1.33-.17-.394-.269-.81-.252-1.418.008-.269.098-.666.181-.908.363-1.07 1.547-2.077 2.835-2.056 1.557.022 3.006 1.123 2.948 2.682z" fill="#fff"/><path d="m139.301 25.278s.662-7.517 4.875-8.806c0 0 4.277-1.354 6.456 2.819.583 1.116.686 2.075.243 4.665-.226 1.325-1.328 3.464-1.476 4.797-.116 1.028-.103 2.599.95 3.741 1.083 1.173-1.641.635-2.013-2.964-.377-3.669-.014-7.611-1.6-8.26 0 0-3.457-2.499-5.917.388z" fill="#fdc117"/><path d="m159.261 25.983s.257-4.384.831-6.355c.156-.535.77-3.279 5.008-3.313 0 0 3.197.182 3.747 3.002.415 2.138-.099 4.639-.522 6.492-.704 3.083-2.572 5.88-3.532 7.104l1.814-4.74.203-5.614-1.162-2.108-2.043-.684-1.836.684-1.441 1.986z" fill="#fdc117"/><path d="m143.28 37.905s-4.383-2.185-4.471-6.693c0 0-.372-3.941 1.265-8.743 0 0 .951-3.885 5.007-2.841 1.479.382 4.208.977 3.746 5.885 0 0-1.023 5.356 1.843 7.219 0 0 2.289 1.434 4.742 1.66 0 0 2.696.946 3.317-3.305l.533-5.104s.207-2.22.969-4.017c0 0 1.227-2.853 4.023-2.442 0 0 3.95.453 2.843 7.421 0 0-.772 5.291-4.613 8.864-.632.591-3.185 2.88-3.185 2.88s-1.704 1.512-2.156 4.592l-.731 7.616s-.442 4.168-4.129 4.154c0 0-3.935.465-2.533-4.2 0 0 1.216-4.194.728-6.214 0 0-.496-4.214-3.292-5.16-.998-.337-3.906-1.572-3.906-1.572z" fill="#fff"/><path d="m109.476 66.094c-1.032-.938-1.118-2.009-.801-2.072.369-.074 1.001.201 1.981.663 1.535.721 2.4 1.178 5.598 2.021 2.933.775 6.353 1.502 11.326 1.686 0 0 9.651.678 17.55-3.486 0 0 2.436-1.34 3.697-1.938.698-.331 1.108.598.194 1.445-1.28 1.186-3.716 3.621-8.631 5.804-4.249 1.89-9.499 3.306-17.371 2.059-2.15-.34-5.765-1.313-8.529-2.802-1.569-.843-3.317-1.836-5.014-3.38z" fill="#fdc117"/><path d="m11.027 21.524c-.001 0 5.203-4.385 12.798-5.448 2.518-.352 4.759-.418 7.871.402 1.354.354 3.575 1.266 5.033 2.568.938.836 2.234 2.325 2.639 4.729.756 4.488-.961 10.477-9.38 14.639 0 0 7.31-6.039 4.081-11.743-3.231-5.703-9.42-6.578-11.259-6.177-1.843.403-11.783 1.03-11.783 1.03z" fill="#fdc117"/><g fill="#fff"><path d="m72.531 20.217c-.65.543-1.153.972-1.132 2.621.008.729-.023 2.038-.021 2.394.029 2.579.044 3.606 0 5.377.088 5.334.521 11.627 1.455 16.409.827 4.233 1.627 6.977 4.432 10.469.425.528.985 1.181 1.229 2.1.309 1.174-.253 2.293-1.246 2.983-2.087 1.451-4.369.221-5.933-2.548-2.393-4.029-3.511-8.424-3.688-15.933-.099-4.091.471-10.685.895-16.656.089-1.245.043-2.699 0-3.788-.025-.653-.392-1.727-1.171-2.257-.536-.366-1.781-1.479-2.041-1.663-1.29-.911 7.819-.006 7.221.492z"/><path d="m63.593 25.847c4.529-2.671 8.418-5.436 11.354-7.347 1.596-1.04 1.719-1.224 1.509-3.882-.125-1.585.484-3.022 1.767-4.159 3.168-2.807 7.126-4.765 10.497-6.34.396-.185 2.913-1.304 3.203-.959.277.329-.744.897-1.12 1.116-4.143 2.413-7.165 4.18-9.621 6.34-.428.376-1.883 1.462-1.455 2.083.368.532 1.348-.091 1.855-.388 3.201-1.882 6.615-4.093 9.801-5.969.449-.292 1.817-1.235 2.027-.842.195.365-.978 1.079-1.406 1.387-2.896 2.067-6.776 4.615-9.466 6.773-.467.378-1.369 1.027-1.086 1.572.308.596 1.442-.061 1.965-.398 2.923-1.914 6.99-4.573 9.912-6.495.48-.314 1.349-.929 1.619-.589.181.224-.719 1.03-1.165 1.351-2.953 2.263-5.961 4.373-9.103 6.688-.471.339-1.817 1.467-1.445 1.983.358.505 1.63-.167 2.144-.428 2.96-1.5 6.438-4.259 9.678-6.667.514-.438 1.398-1.277 1.68-.891.246.334-.522.985-.745 1.255-2.384 2.43-6.561 6.312-10.238 8.591-1.644 1.057-2.468 1.351-6.337.491-.839-.188-2.441.977-2.711 1.167-3.008 2.056-8.929 6.263-12.177 8.539-2.24-.228-1.149-3.856-.936-3.982z"/></g></g><path d="m40.153 23.311s-.526-3.753 3.241-5.756c1.501-.797 2.652-1.441 5.445-1.677 1.708-.142 3.271-.187 5.047.163 1.058.208 2.158.534 3.887 1.398 1.912.957 3.997 2.948 5.037 4.594.499.792 1.377 2.865 1.474 3.355.478 2.428-1.961-1.662-1.961-1.662l-7.063-4.356-8.481.111-3.61.232z" fill="#fdc117"/><path d="m60.398 31.667 4.983 7.774c.217-6.615.825-9.643-.188-12.179-2.196-5.513-5.243-7.072-8.937-8.212-5.859-1.806-12.554.345-12.554.345-2.175.833-3.696 1.685-3.549 4.388.147 2.7 1.845 3.017 2.786 3.121 1.308.144 3.348-.95 4.426-1.228 5.15-1.323 7.285-.794 9.227.183 2.181 1.099 3.834 3.125 3.806 5.808z" fill="#fff"/><path clip-rule="evenodd" d="m75.208 11.274c-.41-2.406-1.415-4.958-2.289-6.419-1.16-1.939-2.265-3.09-3.922-3.668-.363-.127-1.194-.245-1.93-.157-.715.118-1.489.412-1.811.625-1.463.968-2.249 2.355-2.896 4.521-.486 1.633-.832 4.353-.636 6.787 0 0 .343 4.059 2.224 5.924 0 0 .972 1.087 2.577 2.083.802.497 1.895 1.027 2.321 2.946l.51 3.519 1.007-.156 1.015-.097-.373-3.536c-.06-1.965.868-2.749 1.524-3.428 1.312-1.36 1.984-2.653 1.984-2.653 1.364-2.272.695-6.291.695-6.291z" fill="#fff" fill-rule="evenodd"/><path clip-rule="evenodd" d="m70.746 17.6c.537-3.303.768-10.166-2.919-15.004-.486-.639 1.657.383 2.703 1.645 1.148 1.383 1.919 3.032 2.398 4.453.62 1.836.97 3.542.93 5.007-.042 1.466-.188 1.933-.5 2.856-.142.412-.633 1.457-1.477 2.002-1.051.676-1.293 0-1.135-.959z" fill="#fdc117" fill-rule="evenodd"/><path clip-rule="evenodd" d="m84.453 21.598c-.001 0 5.191-4.376 12.77-5.436 2.512-.351 4.748-.418 7.853.4 1.351.353 3.569 1.262 5.022 2.563.937.835 2.227 2.32 2.632 4.719.755 4.476-.958 10.452-9.36 14.605 0 0 7.293-6.024 4.072-11.716-3.223-5.691-9.396-6.563-11.233-6.165-1.838.402-11.756 1.03-11.756 1.03z" fill="#fdc117" fill-rule="evenodd"/><g fill="#fff"><path clip-rule="evenodd" d="m113.214 52.037s-1.46-2.338-4.501.147c0 0-11.454 7.731-20.322 2.361 0 0-2.387-1.375-3.943-3.97 0 0-1.388-2.323.794-3.288 5.103-2.253 11.209-4.509 15.394-6.754 2.939-1.578 10.103-6.25 9.297-12.347 0 0-.308-6.167-6.337-8.874-2.304-1.032-4.87-1.831-9.638-1.279 0 0-4.9.364-9.865 3.784-3.042 2.095-6.176 5.484-8.026 10.222-1.529 3.919-2.204 8.36-1.004 14.823.746 4.021 2.952 8.824 7.503 12.346 3.771 2.919 8.854 4.806 15.012 4.105 0 0 9.519-.87 14.78-6.698-.001-.002 2.378-2.619.856-4.578zm-30.709-13.735s.347-8.442 8.861-12.218c0 0 2.669-1.302 5.933-1.1 0 0 2.425.43 3.548 1.605 0 0 3.199 2.56.281 5.441 0 0-4.362 5.233-15.399 8.521 0 .002-3.53 1.415-3.224-2.249z" fill-rule="evenodd"/><path d="m67.376 57.818c-1.084-2.398-1.32-4.214-1.702-6.459-.49-2.884-.461-8.211-.382-10.538.215-6.256.216-10.917-.53-13.387-.393-1.299 1.056-2.649-.706-1.829-1.444.672-21.207 11.319-22.491 12.14-5.255 3.359-6.649 5.439-7.766 7.953-2.629 5.927.692 12.437 3.371 14.767 4.239 3.689 10.553 3.262 13.544 1.818 2.761-1.331 6.239-3.869 6.239-3.869 1.774-1.463 3.7-1.56 4.247.185.23.735.599 2.43.941 3.122 1.059 2.137 3.819 1.734 4.974.942 2.533-1.739.616-4.057.261-4.845zm-6.962-20.79c-.217 4.213-.89 12.437-6.483 16.184-1.529 1.025-4.187 2.507-7.416 1.992-.963-.154-2.03-.368-3.286-1.396-1.532-1.25-3.085-5.245-.471-8.354 0 0 4.087-4.572 14.572-10.23.786-.426 3.304-2.449 3.084 1.804z"/><path d="m56.942 29.365s3.507-1.404.188-3.207c-3.582-1.947-.049-3.143 2.217-1.112 2.268 2.031.619 7.77-1.148 6.741-1.765-1.031-2.041-.67-1.257-2.422z"/><path clip-rule="evenodd" d="m66.913 28.176c-.934.608-1.153 1.04-1.15 2.865.001 1.344-2.059-.293-1.746-1.511.313-1.216 2.457-3.415 2.896-3.061s.358 1.475 0 1.707z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m67.957 27.434s.607-.492.518.642c-.088 1.136.755-.833.553-1.405-.204-.574-1.066-.467-1.205 0-.136.465-.243.981.134.763z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m71.391 26.278s-.026-.604.19-1.104c.141-.327.454-.648.819-.908.733-.52-.809-.276-.809-.276l-.805 1.125c0 .001.613 1.949.605 1.163z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m39.854 52.032s-1.464-2.343-4.513.147c0 0-11.479 7.749-20.367 2.366 0 0-2.393-1.379-3.953-3.978 0 0-1.39-2.328.799-3.295 5.112-2.258 11.233-4.52 15.426-6.771 2.947-1.582 10.125-6.264 9.318-12.375 0 0-.308-6.179-6.353-8.893-2.309-1.034-4.881-1.833-9.66-1.282 0 0-4.91.364-9.884 3.792-3.05 2.102-6.192 5.498-8.045 10.247-1.533 3.926-2.209 8.377-1.007 14.854.747 4.03 2.959 8.845 7.518 12.375 3.781 2.924 8.875 4.816 15.046 4.113 0 0 9.541-.872 14.814-6.714.001 0 2.386-2.622.861-4.586zm-30.779-13.765s.348-8.462 8.883-12.246c0 0 2.673-1.304 5.944-1.102 0 0 2.429.432 3.556 1.608 0 0 3.206 2.567.28 5.454 0 0-4.369 5.245-15.434 8.542.001 0-3.537 1.415-3.229-2.256z" fill-rule="evenodd"/></g></svg></a>
+                    </div>
+                    <div class="col-6 col-lg-9 col-md-9 col-sm-6 col-xl-9 mob"><i id="show" class="mob bar-icon fa-solid fa-bars-staggered"></i></div>
+                    <div class="col-6 col-lg-9 col-md-9 col-sm-6 col-xl-9 navmenu" id="navmenu">
+                        <nav class="main-menu">
+                            <a href="index.html"></a><svg class="mob" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 171 75.25" height="55" viewBox="0 0 171 75.25" width="110"><path d="m55.448 6.652c3.507 1.07 4.875 3.43 5.232 4.176.098-1.264-.063-3.864-2.788-5.148-2.665-1.253-6.11-.927-6.11-.927s.815 4.798 3.207 6.232c2.387 1.433 5.59.563 5.59.563-1.482-3.44-5.131-4.896-5.131-4.896z" fill="#6bbd45"/><path d="m55.918 13.333c1.971-1.604 4.179-1.681 4.609-1.792-.529-.386-2.25-1.676-4.349-.408-1.831 1.11-3.018 3.327-3.018 3.327s3.234 1.437 5.061.563c1.507-.718 2.211-2.513 2.411-3.121-2.197.004-4.714 1.431-4.714 1.431z" fill="#39b54a"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m113.616 29.703s4.986-12.026 16.542-13.71c0 0 9.343-1.504 10.495 7.355 0 0-.261 5.462-2.804 9.045l.417-3.573-1.611-6.59-6.994-2.4-8.98 2.865z" fill="#fdc117"/><path d="m138.583 49.256-9.025-4.454c-4.016-2.412-.369-4.698-.369-4.698l4.072-2.325c5.345-3.09 6.424-7.81 6.077-10.818-.313-2.725-1.178-4.047-2.375-5.231-2.465-2.441-6.53-2.769-9.587-2.166-7.084 1.395-10.408 5.445-12.325 7.801-7.042 8.669-7.145 23.407-7.145 23.407-.009 4.8.19 7.581 1.645 10.189 1.957 3.503 5.752 2.086 5.752 2.086 3.172-1.919 1.134-5.731 1.134-5.731-1.156-3.966-.681-7.635-.681-7.635.866-6.702 5.122-3.585 5.122-3.585l7.514 5.753 6.396 4.951c2.438 1.442 5.079-.136 6.163-2.443 1.404-2.985-2.368-5.101-2.368-5.101zm-19.893-9.645s-2.873 1.29-2.788-1.658c0 0 .226-6.085 6.592-10.034 0 0 1.678-1.073 4.25-.972.81.033 2.122.15 3.108 1.041 0 0 2.774 2.181.524 4.733 0 .001-3.13 3.266-11.686 6.89z" fill="#fff"/><path d="m155.411 60.162c-.038 1.038-.795 2.389-1.726 2.899-.2.11-.664.405-1.453.441-.425.019-.92-.031-1.357-.31-.421-.267-.835-.531-1.176-1.33-.17-.394-.269-.81-.252-1.418.008-.269.098-.666.181-.908.363-1.07 1.547-2.077 2.835-2.056 1.557.022 3.006 1.123 2.948 2.682z" fill="#fff"/><path d="m139.301 25.278s.662-7.517 4.875-8.806c0 0 4.277-1.354 6.456 2.819.583 1.116.686 2.075.243 4.665-.226 1.325-1.328 3.464-1.476 4.797-.116 1.028-.103 2.599.95 3.741 1.083 1.173-1.641.635-2.013-2.964-.377-3.669-.014-7.611-1.6-8.26 0 0-3.457-2.499-5.917.388z" fill="#fdc117"/><path d="m159.261 25.983s.257-4.384.831-6.355c.156-.535.77-3.279 5.008-3.313 0 0 3.197.182 3.747 3.002.415 2.138-.099 4.639-.522 6.492-.704 3.083-2.572 5.88-3.532 7.104l1.814-4.74.203-5.614-1.162-2.108-2.043-.684-1.836.684-1.441 1.986z" fill="#fdc117"/><path d="m143.28 37.905s-4.383-2.185-4.471-6.693c0 0-.372-3.941 1.265-8.743 0 0 .951-3.885 5.007-2.841 1.479.382 4.208.977 3.746 5.885 0 0-1.023 5.356 1.843 7.219 0 0 2.289 1.434 4.742 1.66 0 0 2.696.946 3.317-3.305l.533-5.104s.207-2.22.969-4.017c0 0 1.227-2.853 4.023-2.442 0 0 3.95.453 2.843 7.421 0 0-.772 5.291-4.613 8.864-.632.591-3.185 2.88-3.185 2.88s-1.704 1.512-2.156 4.592l-.731 7.616s-.442 4.168-4.129 4.154c0 0-3.935.465-2.533-4.2 0 0 1.216-4.194.728-6.214 0 0-.496-4.214-3.292-5.16-.998-.337-3.906-1.572-3.906-1.572z" fill="#fff"/><path d="m109.476 66.094c-1.032-.938-1.118-2.009-.801-2.072.369-.074 1.001.201 1.981.663 1.535.721 2.4 1.178 5.598 2.021 2.933.775 6.353 1.502 11.326 1.686 0 0 9.651.678 17.55-3.486 0 0 2.436-1.34 3.697-1.938.698-.331 1.108.598.194 1.445-1.28 1.186-3.716 3.621-8.631 5.804-4.249 1.89-9.499 3.306-17.371 2.059-2.15-.34-5.765-1.313-8.529-2.802-1.569-.843-3.317-1.836-5.014-3.38z" fill="#fdc117"/><path d="m11.027 21.524c-.001 0 5.203-4.385 12.798-5.448 2.518-.352 4.759-.418 7.871.402 1.354.354 3.575 1.266 5.033 2.568.938.836 2.234 2.325 2.639 4.729.756 4.488-.961 10.477-9.38 14.639 0 0 7.31-6.039 4.081-11.743-3.231-5.703-9.42-6.578-11.259-6.177-1.843.403-11.783 1.03-11.783 1.03z" fill="#fdc117"/><g fill="#fff"><path d="m72.531 20.217c-.65.543-1.153.972-1.132 2.621.008.729-.023 2.038-.021 2.394.029 2.579.044 3.606 0 5.377.088 5.334.521 11.627 1.455 16.409.827 4.233 1.627 6.977 4.432 10.469.425.528.985 1.181 1.229 2.1.309 1.174-.253 2.293-1.246 2.983-2.087 1.451-4.369.221-5.933-2.548-2.393-4.029-3.511-8.424-3.688-15.933-.099-4.091.471-10.685.895-16.656.089-1.245.043-2.699 0-3.788-.025-.653-.392-1.727-1.171-2.257-.536-.366-1.781-1.479-2.041-1.663-1.29-.911 7.819-.006 7.221.492z"/><path d="m63.593 25.847c4.529-2.671 8.418-5.436 11.354-7.347 1.596-1.04 1.719-1.224 1.509-3.882-.125-1.585.484-3.022 1.767-4.159 3.168-2.807 7.126-4.765 10.497-6.34.396-.185 2.913-1.304 3.203-.959.277.329-.744.897-1.12 1.116-4.143 2.413-7.165 4.18-9.621 6.34-.428.376-1.883 1.462-1.455 2.083.368.532 1.348-.091 1.855-.388 3.201-1.882 6.615-4.093 9.801-5.969.449-.292 1.817-1.235 2.027-.842.195.365-.978 1.079-1.406 1.387-2.896 2.067-6.776 4.615-9.466 6.773-.467.378-1.369 1.027-1.086 1.572.308.596 1.442-.061 1.965-.398 2.923-1.914 6.99-4.573 9.912-6.495.48-.314 1.349-.929 1.619-.589.181.224-.719 1.03-1.165 1.351-2.953 2.263-5.961 4.373-9.103 6.688-.471.339-1.817 1.467-1.445 1.983.358.505 1.63-.167 2.144-.428 2.96-1.5 6.438-4.259 9.678-6.667.514-.438 1.398-1.277 1.68-.891.246.334-.522.985-.745 1.255-2.384 2.43-6.561 6.312-10.238 8.591-1.644 1.057-2.468 1.351-6.337.491-.839-.188-2.441.977-2.711 1.167-3.008 2.056-8.929 6.263-12.177 8.539-2.24-.228-1.149-3.856-.936-3.982z"/></g></g><path d="m40.153 23.311s-.526-3.753 3.241-5.756c1.501-.797 2.652-1.441 5.445-1.677 1.708-.142 3.271-.187 5.047.163 1.058.208 2.158.534 3.887 1.398 1.912.957 3.997 2.948 5.037 4.594.499.792 1.377 2.865 1.474 3.355.478 2.428-1.961-1.662-1.961-1.662l-7.063-4.356-8.481.111-3.61.232z" fill="#fdc117"/><path d="m60.398 31.667 4.983 7.774c.217-6.615.825-9.643-.188-12.179-2.196-5.513-5.243-7.072-8.937-8.212-5.859-1.806-12.554.345-12.554.345-2.175.833-3.696 1.685-3.549 4.388.147 2.7 1.845 3.017 2.786 3.121 1.308.144 3.348-.95 4.426-1.228 5.15-1.323 7.285-.794 9.227.183 2.181 1.099 3.834 3.125 3.806 5.808z" fill="#fff"/><path clip-rule="evenodd" d="m75.208 11.274c-.41-2.406-1.415-4.958-2.289-6.419-1.16-1.939-2.265-3.09-3.922-3.668-.363-.127-1.194-.245-1.93-.157-.715.118-1.489.412-1.811.625-1.463.968-2.249 2.355-2.896 4.521-.486 1.633-.832 4.353-.636 6.787 0 0 .343 4.059 2.224 5.924 0 0 .972 1.087 2.577 2.083.802.497 1.895 1.027 2.321 2.946l.51 3.519 1.007-.156 1.015-.097-.373-3.536c-.06-1.965.868-2.749 1.524-3.428 1.312-1.36 1.984-2.653 1.984-2.653 1.364-2.272.695-6.291.695-6.291z" fill="#fff" fill-rule="evenodd"/><path clip-rule="evenodd" d="m70.746 17.6c.537-3.303.768-10.166-2.919-15.004-.486-.639 1.657.383 2.703 1.645 1.148 1.383 1.919 3.032 2.398 4.453.62 1.836.97 3.542.93 5.007-.042 1.466-.188 1.933-.5 2.856-.142.412-.633 1.457-1.477 2.002-1.051.676-1.293 0-1.135-.959z" fill="#fdc117" fill-rule="evenodd"/><path clip-rule="evenodd" d="m84.453 21.598c-.001 0 5.191-4.376 12.77-5.436 2.512-.351 4.748-.418 7.853.4 1.351.353 3.569 1.262 5.022 2.563.937.835 2.227 2.32 2.632 4.719.755 4.476-.958 10.452-9.36 14.605 0 0 7.293-6.024 4.072-11.716-3.223-5.691-9.396-6.563-11.233-6.165-1.838.402-11.756 1.03-11.756 1.03z" fill="#fdc117" fill-rule="evenodd"/><g fill="#fff"><path clip-rule="evenodd" d="m113.214 52.037s-1.46-2.338-4.501.147c0 0-11.454 7.731-20.322 2.361 0 0-2.387-1.375-3.943-3.97 0 0-1.388-2.323.794-3.288 5.103-2.253 11.209-4.509 15.394-6.754 2.939-1.578 10.103-6.25 9.297-12.347 0 0-.308-6.167-6.337-8.874-2.304-1.032-4.87-1.831-9.638-1.279 0 0-4.9.364-9.865 3.784-3.042 2.095-6.176 5.484-8.026 10.222-1.529 3.919-2.204 8.36-1.004 14.823.746 4.021 2.952 8.824 7.503 12.346 3.771 2.919 8.854 4.806 15.012 4.105 0 0 9.519-.87 14.78-6.698-.001-.002 2.378-2.619.856-4.578zm-30.709-13.735s.347-8.442 8.861-12.218c0 0 2.669-1.302 5.933-1.1 0 0 2.425.43 3.548 1.605 0 0 3.199 2.56.281 5.441 0 0-4.362 5.233-15.399 8.521 0 .002-3.53 1.415-3.224-2.249z" fill-rule="evenodd"/><path d="m67.376 57.818c-1.084-2.398-1.32-4.214-1.702-6.459-.49-2.884-.461-8.211-.382-10.538.215-6.256.216-10.917-.53-13.387-.393-1.299 1.056-2.649-.706-1.829-1.444.672-21.207 11.319-22.491 12.14-5.255 3.359-6.649 5.439-7.766 7.953-2.629 5.927.692 12.437 3.371 14.767 4.239 3.689 10.553 3.262 13.544 1.818 2.761-1.331 6.239-3.869 6.239-3.869 1.774-1.463 3.7-1.56 4.247.185.23.735.599 2.43.941 3.122 1.059 2.137 3.819 1.734 4.974.942 2.533-1.739.616-4.057.261-4.845zm-6.962-20.79c-.217 4.213-.89 12.437-6.483 16.184-1.529 1.025-4.187 2.507-7.416 1.992-.963-.154-2.03-.368-3.286-1.396-1.532-1.25-3.085-5.245-.471-8.354 0 0 4.087-4.572 14.572-10.23.786-.426 3.304-2.449 3.084 1.804z"/><path d="m56.942 29.365s3.507-1.404.188-3.207c-3.582-1.947-.049-3.143 2.217-1.112 2.268 2.031.619 7.77-1.148 6.741-1.765-1.031-2.041-.67-1.257-2.422z"/><path clip-rule="evenodd" d="m66.913 28.176c-.934.608-1.153 1.04-1.15 2.865.001 1.344-2.059-.293-1.746-1.511.313-1.216 2.457-3.415 2.896-3.061s.358 1.475 0 1.707z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m67.957 27.434s.607-.492.518.642c-.088 1.136.755-.833.553-1.405-.204-.574-1.066-.467-1.205 0-.136.465-.243.981.134.763z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m71.391 26.278s-.026-.604.19-1.104c.141-.327.454-.648.819-.908.733-.52-.809-.276-.809-.276l-.805 1.125c0 .001.613 1.949.605 1.163z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m39.854 52.032s-1.464-2.343-4.513.147c0 0-11.479 7.749-20.367 2.366 0 0-2.393-1.379-3.953-3.978 0 0-1.39-2.328.799-3.295 5.112-2.258 11.233-4.52 15.426-6.771 2.947-1.582 10.125-6.264 9.318-12.375 0 0-.308-6.179-6.353-8.893-2.309-1.034-4.881-1.833-9.66-1.282 0 0-4.91.364-9.884 3.792-3.05 2.102-6.192 5.498-8.045 10.247-1.533 3.926-2.209 8.377-1.007 14.854.747 4.03 2.959 8.845 7.518 12.375 3.781 2.924 8.875 4.816 15.046 4.113 0 0 9.541-.872 14.814-6.714.001 0 2.386-2.622.861-4.586zm-30.779-13.765s.348-8.462 8.883-12.246c0 0 2.673-1.304 5.944-1.102 0 0 2.429.432 3.556 1.608 0 0 3.206 2.567.28 5.454 0 0-4.369 5.245-15.434 8.542.001 0-3.537 1.415-3.229-2.256z" fill-rule="evenodd"/></g></svg></a>
+                            <ul>
+                                <li><a class="font1" href="index.html">Home</a></li>
+                                <li><a class="font1" href="#">Feature <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="overview.html">Overview</a></li>
+                                        <li><a href="#feature">Key Feature</a></li>
+                                        <li><a href="point-of-sale.html">point of sale</a></li>
+                                        <li><a href="cloudsync.html">CloudSync</a></li>
+                                        <li><a href="online-order.html">Online Ordering</a></li>
+                                        <li><a href="tablebooking.html">Table Booking</a></li>
+                                        <li><a href="inventory.html">Inventory Management</a></li>
+                                        <li><a href="customer-experience.html">Customer Experience</a></li>
+                                        <li><a href="reporting.html">Reporting and Insights</a></li>
+                                        <li><a href="kithen.html">Kitchen Display System</a></li>
+                                        <li><a href="multiple-terminals.html">Multiple terminals</a></li>
+                                        <li><a href="integrations.html">integration</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="font1" href="#">Business Types <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="full-service.html">Full Service Restaurant</a></li>
+                                        <li><a href="quick.html">Quick Service</a></li>
+                                        <li><a href="bars.html">Bars</a></li>
+                                        <li><a href="retail.html">Retail</a></li>
+                                        <li><a href="food-truck.html">Food Truck</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="font1" href="#screen">Screens</a></li>
+                                <li><a class="font1" href="#clients">Clients</a></li>
+                                <li><a class="font1" href="#price">Price</a></li>
+                                <li><a class="font1" href="#">Resources <i class="fa-solid fa-angle-down"></i></a> 
+                                    <ul>
+                                        <li><a href="hardware.html">Hardware</a></li>
+                                        <li><a href="customer.html">Our customer</a></li>
+                                        <li><a href="guide.html">Guide</a></li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="food-truck.html">Food Truck</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="font1" href="#contact">Contacts</a></li>
+                                <li class="hlgbtn"><a class="font1" href="#demo"><span>Request</span> Demo</a></li>
+                            </ul>
+                        </nav>
+                        <i class="mob fa-solid cross-bar-icon fa-rectangle-xmark"></i>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <section class="solution" id="">
+            <div class="row">
+                <div class="col-12 section pd-tb-80 content-services">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 desk pd-tb-30">
+                            <div class="tab-nav">
+                                <div class="tab">
+                                    <ul class="fixed">
+                                        <li id="active"><a href="#sale">Point of Sale</a></li>
+                                        <li><a href="#t-order">Table Ordering</a></li>
+                                        <li><a href="#emanag">Employee Management</a></li>
+                                        <li><a href="#printing">Printing</a></li>
+                                        <li><a href="#cusdisplay">Customer Display</a></li>
+                                        <li><a href="#cloud">CloudSync</a></li>
+                                        <li><a href="#order">Online Ordering</a></li>
+                                        <li><a href="#table">Table Booking</a></li>
+                                        <li><a href="#inmanage">Inventory Management</a></li>
+                                        <li><a href="#custom">Customer/ Loyalty</a></li>
+                                        <li><a href="#reports">Report</a></li>
+                                        <li><a href="#kitchen">Kitchen Display</a></li>
+                                        <li><a href="#multiple">Multiple Terminal</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 pd-30">
+                            <div class="row sale tabcontent" id="sale">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-brands fa-sellsy"></i>Point of Sale</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Discount </span></h3>
+                                        <p>Discount by percentage, price or preset discount. Apply it on product or bill.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Capped Discount </span></h3>
+                                        <p>Capped discount by percentage to a fixed amount.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Refunds</span></h3>
+                                        <p>Refund previous bill or non linked refunds.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Multiple Ordering Methods</span></h3>
+                                        <p>Choose from category, favourites, quick key or item search.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Theme Color</span></h3>
+                                        <p>Customise each layout, function key and product item color.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Configure Menu Button Sizes</span></h3>
+                                        <p>Configure different menu sizes to fit your pos system.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Bluetooth Scanner/Keyboard</span></h3>
+                                        <p>Attach a bluetooth barcode scanner to ring up a product. Alternatively key in product code using bluetooth keyboard</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Easy Scanning</span></h3>
+                                        <p>Scan barcodes, customer card, gift card using the iPad's built in rear/front facing camera</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Cash Till</span></h3>
+                                        <p>Manage multiple shift across multiple device. Easily identify which till is short.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Cash Till Denomination</span></h3>
+                                        <p>Key in the number of coins you have and the system tells you the total.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Works Totally Offline</span></h3>
+                                        <p>All connections between devices are done within local area network. Having internet is optional.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Open Item</span></h3>
+                                        <p>For custom orders that are not in menu.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Hold Bill/Send Order</span></h3>
+                                        <p>Hold the bill and send orders to kitchen, recall later to add on orders or checkout.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Generate Invoice</span></h3>
+                                        <p>Generate invoice, email to your customer or Airprint to supported printer.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Hold Bill/Send Order</span></h3>
+                                        <p>Hold the bill and send orders to kitchen, recall later to add on orders or checkout.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">One Click Checkout</span></h3>
+                                        <p>No frills, quick checkout to speed up the queue.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Split Payments</span></h3>
+                                        <p>Pay partially with cash or credit card.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Transfer Item</span></h3>
+                                        <p>Easily transfer item to another bill</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Split Bill</span></h3>
+                                        <p>Split by percentage, custom amount, seat or even a portion of the food.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Menu Language</span></h3>
+                                        <p>Translate, display and print your menu items in different languages.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Time Based Menu</span></h3>
+                                        <p>Display only specific set of menu during defined hour of the day.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Modifier</span></h3>
+                                        <p>Optional, number of choice, unique selection, customize the order however you want it.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Ordering Mode</span></h3>
+                                        <p>Dine in, to go, quick serve, delivery & online ordering.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Pricing Level</span></h3>
+                                        <p>Create item with multiple pricing. For example happy hour, peak hour and normal pricing level.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Weight Order</span></h3>
+                                        <p>Key in the weight of the orders and deduct from inventory accordingly.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Variant Item</span></h3>
+                                        <p>Easily create multiple variant of item using attributes created. Perfect in retail situation where product comes in different color and sizes.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Combo Meal</span></h3>
+                                        <p>Pair up groups of item and sell them in a bundle. Providing more values to customer.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Course</span></h3>
+                                        <p>Arrange orders based on course sequence, organized kitchen printout let chef prepares order in sequence.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Manage Order/Delay Printing</span></h3>
+                                        <p>Hold certain orders but print to kitchen at a later date.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Custom Tax</span></h3>
+                                        <p>Add extra surcharge during holiday, apply different type of tax to different bill.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Reopen Bill</span></h3>
+                                        <p>Reopen bill that was closed incorrectly and make necessary changes.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">CMS via Web</span></h3>
+                                        <p>Easily manage/access data of your iPad using a computer in the same Wi-Fi network.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Collate Orders</span></h3>
+                                        <p>Automatically collate identical orders to reduce the receipt length.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Online Ordering</span></h3>
+                                        <p>Take your iPad to your customer, take orders from anywhere.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="point-of-sale.html">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="t-order">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-brands fa-first-order-alt"></i>Table Ordering</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Table Layout </span></h3>
+                                        <p>Design your own floor plan, quickly glance through table's availability.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Table Status</span></h3>
+                                        <p>Different color to represent table's status.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Seat Assignment</span></h3>
+                                        <p>Assign seat to each order for fine dining situation.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customer Tab</span></h3>
+                                        <p>Add customer tab to table layout for easier tab management.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Join Table</span></h3>
+                                        <p>Join table together to accomodate larger party.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Table Progress</span></h3>
+                                        <p>Shows table turnover progress based on specified time.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="emanag">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-people-roof"></i>Employee Management</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Commission </span></h3>
+                                        <p>Track employees order and calculate the commission to be given.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Clock In/Out </span></h3>
+                                        <p>Let employees clock in/out and report shows their total hours worked.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Permission</span></h3>
+                                        <p>Multiple permissions to prevent employees from acccessing sensitive settings, reports or perform void.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Create Non Login Account</span></h3>
+                                        <p>Create account used for clock in/out purpose only, prevent them from entering the point of sale system.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Multiple Language</span></h3>
+                                        <p>Over 20 app's languages to choose from, assign different app's language for different employee.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Default Landing Page</span></h3>
+                                        <p>Set different landing page for employee, allow them to work more efficiently.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Void Access</span></h3>
+                                        <p>Prevent employee from voiding bill and only allow admin to overwrite.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Discount Limit</span></h3>
+                                        <p>Prevent employee from giving a discount over a certain percentage.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Employee Sales</span></h3>
+                                        <p>Breakdown of employees performance.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3> <span class="highlites">Action Log</span></h3>
+                                        <p>Log sensitive events like void after reopening bill to identify employee theft.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="printing">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-print"></i> Printing</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Queue Number </span></h3>
+                                        <p>Print queue number underneath receipt or in an extra ticket.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Optional Printing</span></h3>
+                                        <p>Choose to print receipt only when its needed.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Receipt Header & Footer Logo</span></h3>
+                                        <p>Print your logo or any custom message on the receipt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Receipt Customization</span></h3>
+                                        <p>Various customization</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Inverse Void Order Printing</span></h3>
+                                        <p>Void order to be printed in reverse manner, allowing chef to spot void order easily.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Printer Override</span></h3>
+                                        <p>Docket printing to be based on the terminal used to order, sending it to the nearest preparing station instead.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Label Printing</span></h3>
+                                        <p>Print label to stick on bubble tea or coffee cup.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Barcode Label Printing</span></h3>
+                                        <p>Print adhesive barcode label to be pasted on product.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Order List Splitting</span></h3>
+                                        <p>Print kitchen docket as a whole or split it by order's quantity.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Buzzer</span></h3>
+                                        <p>Attach external buzzer to your printer so your chef wouldn't miss an order.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="cusdisplay">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-person-military-pointing"></i> Customer Display</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Receipt Details </span></h3>
+                                        <p>Deliver receipt & product price to your customer.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Sign on Screen</span></h3>
+                                        <p>Capture your customer's signature by letting them to sign on the customer facing iPad.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Video/Image Slideshow</span></h3>
+                                        <p>Run a set of videos or images to showcase your business.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Accept Tips</span></h3>
+                                        <p>Let your customer choose the tips amount they wish to pay.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Scan Customer Card</span></h3>
+                                        <p>Using customer display's front facing camera to scan customer's card.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="cloud">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-brands fa-cloudscale"></i> CloudSync</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Dashboard </span></h3>
+                                        <p>Showing you up to date summary of all your business.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Report </span></h3>
+                                        <p>All reports that are avaiable in the iPad is available on cloud as well.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Scheduled Email Report </span></h3>
+                                        <p>Get scheduled reports via email on a daily basis.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Account Roles & Permissions</span></h3>
+                                        <p>Create multiple accounts allowing them to access to only what's necessary.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Stock Management</span></h3>
+                                        <p>Receive low stock notification, generate purchase order and send it out to your supplier to replinish stocks.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Menu Management</span></h3>
+                                        <p>Manage your category, product item online. Serving as an alternative to the iPad.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Integration</span></h3>
+                                        <p>Integrate to accounting software or 3rd party solutions like QuickBooks, Xero & Deputy.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customer Loyalty</span></h3>
+                                        <p>Multiple businesses of yours to share a unified customer database online, allowing customer to redeem rewards at any outlet.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Backup</span></h3>
+                                        <p>Data of iPad is backup automatically to the cloud, giving you a peace of mind.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="cloudsync.html">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="order">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-earth-americas"></i> Online Ordering</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Order Online</span></h3>
+                                        <p>Have your own dedicated secured website, allow customers to take order online.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Table QR Ordering</span></h3>
+                                        <p>Using mobile device of their own, customer scans the QR code that is on the table and make order.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">One-stop Platform</span></h3>
+                                        <p>Seamlessly integrated with the point of sale, avoid complicated streamlining processes and tedious manual work when you subscribe to different systems.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Multiple Payment Methods</span></h3>
+                                        <p>Offer your customer different payment methods upon checkout.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Multi Language</span></h3>
+                                        <p>Support multiple languages to localize for different customer segments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Pre-Order</span></h3>
+                                        <p>Take online pre-order even while your outlet is not operating, giving customer the flexibility to take order at anytime they wish to.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Automated Checkout</span></h3>
+                                        <p>Bill will be checkout automatically for orders that are paid online. A full hands-off operation, let you focus on things that matters.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Time Based Menu</span></h3>
+                                        <p>Display menu according to the time of day, hide non delivery item from the menu.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Menu Configuration</span></h3>
+                                        <p>Delivery, collection or table ordering each can be configured to have it's own set of menu.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Promo Code</span></h3>
+                                        <p>Entice your customer with promo code to get discount and encourage them to do online ordering.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Pricing Level</span></h3>
+                                        <p>Sell your product online at a different pricing to cover the cost of delivery.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customer Login</span></h3>
+                                        <p>Allow customers to sign up for an account online to redeem loyalty cashback.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Pricing Level</span></h3>
+                                        <p>Sell your product online at a different pricing to cover the cost of delivery.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Deliverect Integration</span></h3>
+                                        <p>Integrate to various online ordering platform to perfect your operational flow.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Shipday Integration</span></h3>
+                                        <p>A delivery management software to track your riders and keep the customer in the loop.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="online-order.html">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="table">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-diagram-predecessor"></i> Table Booking</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Real-time Availability </span></h3>
+                                        <p>All bookings made are real time. Be it coming from the booking site or POS.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Booking Allocation</span></h3>
+                                        <p>Bookings are assigned to each table efficiently, allowing you to make the most out of your booking.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Section/Seating Area Selection</span></h3>
+                                        <p>Allow guests to book their preferred seating area.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Notification/Confirmation</span></h3>
+                                        <p>Guest and restaurant owners receive email notification when a booking is made. Owner can choose to accept or reject the booking.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Booking Interface</span></h3>
+                                        <p>Comes with timeline, listing and floor plan view. Giving you the bird's eye view of all bookings for the day.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Block Booking</span></h3>
+                                        <p>Blockout a certain period of the day to prevent guest from booking the period.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Fully Integrated</span></h3>
+                                        <p>Built right into MobiPOS, you do not need a separate app for booking or having to deal with 3rd party integration.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Waitlist</span></h3>
+                                        <p>Serve your walk-in customer, give them an estimation of waiting time.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="inmanage">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-truck-ramp-box"></i> Inventory Management</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Inventory Check</span></h3>
+                                        <p>Auto disabling of product when inventory reaches zero.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Inventory Count Display</span></h3>
+                                        <p>Product inventory count is displayed in menu allowing staff to know what is about to sold out.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Composite Inventory</span></h3>
+                                        <p>Use recipe to track the ingredient used for each product.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Stock Adjustment</span></h3>
+                                        <p>Stock in, out or replace the stock count.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Stock Take</span></h3>
+                                        <p>Using an iPad/iPhone to perform stock take wirelessly.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Cost Averaging</span></h3>
+                                        <p>Adjust product's cost based on current and incoming stock's cost.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Auto Costing</span></h3>
+                                        <p>Cost of a product will be calulated based on the defined recipe, changing recipe's cost automatically affect product's cost.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Purchase Order</span></h3>
+                                        <p>Send purchase order to supplier and inventories get updated automatically upon receival.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Low Stock Notification</span></h3>
+                                        <p>Receive daily update on product which needs to be replenish.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Stock Movement Report</span></h3>
+                                        <p>Multiple filters to identify the wastage & discrepancy of each stock.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Stock Transfer</span></h3>
+                                        <p>Transfer stock to other outlet.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="inventory.html">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="custom">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-brands fa-intercom"></i> Customer/ Loyalty</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Manual/Custom Reward</span></h3>
+                                        <p>Select the most suitable type of reward for each customer.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Automated Reward</span></h3>
+                                        <p>Grant customers reward points upon purchasing specific product items.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Cashback Reward</span></h3>
+                                        <p>Award them cashback each time they spend with you.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Member Pricing Level</span></h3>
+                                        <p>Configure special pricing level exclusively for members.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Member Discount</span></h3>
+                                        <p>Regular customer get to enjoy special discount for their purchase.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customer Credit</span></h3>
+                                        <p>Top up and store credits in their account.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customer Loyalty</span></h3>
+                                        <p>Keep track of your customer spending, visit frequency and their favourite food.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Repeat Orders</span></h3>
+                                        <p>Easily ring up the same order from customer's previous receipt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Repeat Orders</span></h3>
+                                        <p>Easily ring up the same order from customer's previous receipt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="reports">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-circle-half-stroke"></i> Report</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Comprehensive Report </span></h3>
+                                        <p>More than 30 reports to choose from:<br>
+                                            X Reading Report, Category Sales, Item Sales, Top Selling, Hourly Sales, Table Sales, Discount Summary, Discount Transaction, Payment, Void, Refund, Pay In/Out, Employee Performance, Employee Commission, Employee Item Sales, Clock In/Out, Action Log, Transaction, Order, Inventory, Stock Movement, Bill of Material, Custody, Custody Inventory, Claimed Custody, Customer Spending, Customer Credit.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Cloud Reporting</span></h3>
+                                        <p>All reports offline is available online as well, keeping your data up to the minute.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Report Printout</span></h3>
+                                        <p>Print to thermal or A4 sized paper.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Various File Type</span></h3>
+                                        <p>Export your report using Excel, PDF or CSV format.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Email Report</span></h3>
+                                        <p>Quickly share report via email.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Shift Report</span></h3>
+                                        <p>Generate report by shift.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">API Access</span></h3>
+                                        <p>Access raw data using API provided, manipulate data to fit your needs.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="kitchen">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-kitchen-set"></i> Kitchen Display</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customizable Display</span></h3>
+                                        <p>Adjust font and chit size to suit your conditions.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Linked Bump</span></h3>
+                                        <p>Bumping an order in the first KDS will notify the rest.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Printing Order/Bill</span></h3>
+                                        <p>Upon completion of order, print an additional docket to go with the order.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Expedite Screen</span></h3>
+                                        <p>Bumped orders are sent into an expedite screen, consolidating orders to be served.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Timer</span></h3>
+                                        <p>Ticket color changes according to the wait time elapsed, highlighting the urgency of it.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Reporting</span></h3>
+                                        <p>Check each order's preparation time and identify the bottle neck of your operation.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Order Summary</span></h3>
+                                        <p>Summary of all pending orders, grouping them for bulk preparation.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Order Sequence Arrangement</span></h3>
+                                        <p>Rearrange the sequence of orders within the docket.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Split Order by Quantity/Order</span></h3>
+                                        <p>Order to display separately based on it's quantity.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Recipe Viewer</span></h3>
+                                        <p>Recipe can be displayed for each orders, helping chef to source the ingredient.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                            <div class="row order tabcontent" id="multiple">
+                                <div class="col-12 title">
+                                    <h3><i class="fa-solid fa-terminal"></i> Multiple Terminal</h3>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Take Order Remotely</span></h3>
+                                        <p>Take orders or checkout from any iPad, iPhone or iPod Touch.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Customization</span></h3>
+                                        <p>Each terminal can have its own customization, displaying different button layout or process flow.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Report</span></h3>
+                                        <p>Each terminal to have its own report, analyze sales information by terminal.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Stock Take</span></h3>
+                                        <p>Use additional terminal to perform stock take.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">No Server Required</span></h3>
+                                        <p>Use an iPad as your main server instead of a traditional back office PC.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 cl-xl-6 service">
+                                    <div class="service-cons">
+                                        <h3><span class="highlites">Cloud Ordering</span></h3>
+                                        <p>Take orders remotely from anywhere in the world through mobile network.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                                    <center><a class="load-more" href="#">Learn More</a></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <!-- <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 171 75.25" height="55" viewBox="0 0 171 75.25" width="110"><path d="m55.448 6.652c3.507 1.07 4.875 3.43 5.232 4.176.098-1.264-.063-3.864-2.788-5.148-2.665-1.253-6.11-.927-6.11-.927s.815 4.798 3.207 6.232c2.387 1.433 5.59.563 5.59.563-1.482-3.44-5.131-4.896-5.131-4.896z" fill="#6bbd45"/><path d="m55.918 13.333c1.971-1.604 4.179-1.681 4.609-1.792-.529-.386-2.25-1.676-4.349-.408-1.831 1.11-3.018 3.327-3.018 3.327s3.234 1.437 5.061.563c1.507-.718 2.211-2.513 2.411-3.121-2.197.004-4.714 1.431-4.714 1.431z" fill="#39b54a"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m113.616 29.703s4.986-12.026 16.542-13.71c0 0 9.343-1.504 10.495 7.355 0 0-.261 5.462-2.804 9.045l.417-3.573-1.611-6.59-6.994-2.4-8.98 2.865z" fill="#fdc117"/><path d="m138.583 49.256-9.025-4.454c-4.016-2.412-.369-4.698-.369-4.698l4.072-2.325c5.345-3.09 6.424-7.81 6.077-10.818-.313-2.725-1.178-4.047-2.375-5.231-2.465-2.441-6.53-2.769-9.587-2.166-7.084 1.395-10.408 5.445-12.325 7.801-7.042 8.669-7.145 23.407-7.145 23.407-.009 4.8.19 7.581 1.645 10.189 1.957 3.503 5.752 2.086 5.752 2.086 3.172-1.919 1.134-5.731 1.134-5.731-1.156-3.966-.681-7.635-.681-7.635.866-6.702 5.122-3.585 5.122-3.585l7.514 5.753 6.396 4.951c2.438 1.442 5.079-.136 6.163-2.443 1.404-2.985-2.368-5.101-2.368-5.101zm-19.893-9.645s-2.873 1.29-2.788-1.658c0 0 .226-6.085 6.592-10.034 0 0 1.678-1.073 4.25-.972.81.033 2.122.15 3.108 1.041 0 0 2.774 2.181.524 4.733 0 .001-3.13 3.266-11.686 6.89z" fill="#fff"/><path d="m155.411 60.162c-.038 1.038-.795 2.389-1.726 2.899-.2.11-.664.405-1.453.441-.425.019-.92-.031-1.357-.31-.421-.267-.835-.531-1.176-1.33-.17-.394-.269-.81-.252-1.418.008-.269.098-.666.181-.908.363-1.07 1.547-2.077 2.835-2.056 1.557.022 3.006 1.123 2.948 2.682z" fill="#fff"/><path d="m139.301 25.278s.662-7.517 4.875-8.806c0 0 4.277-1.354 6.456 2.819.583 1.116.686 2.075.243 4.665-.226 1.325-1.328 3.464-1.476 4.797-.116 1.028-.103 2.599.95 3.741 1.083 1.173-1.641.635-2.013-2.964-.377-3.669-.014-7.611-1.6-8.26 0 0-3.457-2.499-5.917.388z" fill="#fdc117"/><path d="m159.261 25.983s.257-4.384.831-6.355c.156-.535.77-3.279 5.008-3.313 0 0 3.197.182 3.747 3.002.415 2.138-.099 4.639-.522 6.492-.704 3.083-2.572 5.88-3.532 7.104l1.814-4.74.203-5.614-1.162-2.108-2.043-.684-1.836.684-1.441 1.986z" fill="#fdc117"/><path d="m143.28 37.905s-4.383-2.185-4.471-6.693c0 0-.372-3.941 1.265-8.743 0 0 .951-3.885 5.007-2.841 1.479.382 4.208.977 3.746 5.885 0 0-1.023 5.356 1.843 7.219 0 0 2.289 1.434 4.742 1.66 0 0 2.696.946 3.317-3.305l.533-5.104s.207-2.22.969-4.017c0 0 1.227-2.853 4.023-2.442 0 0 3.95.453 2.843 7.421 0 0-.772 5.291-4.613 8.864-.632.591-3.185 2.88-3.185 2.88s-1.704 1.512-2.156 4.592l-.731 7.616s-.442 4.168-4.129 4.154c0 0-3.935.465-2.533-4.2 0 0 1.216-4.194.728-6.214 0 0-.496-4.214-3.292-5.16-.998-.337-3.906-1.572-3.906-1.572z" fill="#fff"/><path d="m109.476 66.094c-1.032-.938-1.118-2.009-.801-2.072.369-.074 1.001.201 1.981.663 1.535.721 2.4 1.178 5.598 2.021 2.933.775 6.353 1.502 11.326 1.686 0 0 9.651.678 17.55-3.486 0 0 2.436-1.34 3.697-1.938.698-.331 1.108.598.194 1.445-1.28 1.186-3.716 3.621-8.631 5.804-4.249 1.89-9.499 3.306-17.371 2.059-2.15-.34-5.765-1.313-8.529-2.802-1.569-.843-3.317-1.836-5.014-3.38z" fill="#fdc117"/><path d="m11.027 21.524c-.001 0 5.203-4.385 12.798-5.448 2.518-.352 4.759-.418 7.871.402 1.354.354 3.575 1.266 5.033 2.568.938.836 2.234 2.325 2.639 4.729.756 4.488-.961 10.477-9.38 14.639 0 0 7.31-6.039 4.081-11.743-3.231-5.703-9.42-6.578-11.259-6.177-1.843.403-11.783 1.03-11.783 1.03z" fill="#fdc117"/><g fill="#fff"><path d="m72.531 20.217c-.65.543-1.153.972-1.132 2.621.008.729-.023 2.038-.021 2.394.029 2.579.044 3.606 0 5.377.088 5.334.521 11.627 1.455 16.409.827 4.233 1.627 6.977 4.432 10.469.425.528.985 1.181 1.229 2.1.309 1.174-.253 2.293-1.246 2.983-2.087 1.451-4.369.221-5.933-2.548-2.393-4.029-3.511-8.424-3.688-15.933-.099-4.091.471-10.685.895-16.656.089-1.245.043-2.699 0-3.788-.025-.653-.392-1.727-1.171-2.257-.536-.366-1.781-1.479-2.041-1.663-1.29-.911 7.819-.006 7.221.492z"/><path d="m63.593 25.847c4.529-2.671 8.418-5.436 11.354-7.347 1.596-1.04 1.719-1.224 1.509-3.882-.125-1.585.484-3.022 1.767-4.159 3.168-2.807 7.126-4.765 10.497-6.34.396-.185 2.913-1.304 3.203-.959.277.329-.744.897-1.12 1.116-4.143 2.413-7.165 4.18-9.621 6.34-.428.376-1.883 1.462-1.455 2.083.368.532 1.348-.091 1.855-.388 3.201-1.882 6.615-4.093 9.801-5.969.449-.292 1.817-1.235 2.027-.842.195.365-.978 1.079-1.406 1.387-2.896 2.067-6.776 4.615-9.466 6.773-.467.378-1.369 1.027-1.086 1.572.308.596 1.442-.061 1.965-.398 2.923-1.914 6.99-4.573 9.912-6.495.48-.314 1.349-.929 1.619-.589.181.224-.719 1.03-1.165 1.351-2.953 2.263-5.961 4.373-9.103 6.688-.471.339-1.817 1.467-1.445 1.983.358.505 1.63-.167 2.144-.428 2.96-1.5 6.438-4.259 9.678-6.667.514-.438 1.398-1.277 1.68-.891.246.334-.522.985-.745 1.255-2.384 2.43-6.561 6.312-10.238 8.591-1.644 1.057-2.468 1.351-6.337.491-.839-.188-2.441.977-2.711 1.167-3.008 2.056-8.929 6.263-12.177 8.539-2.24-.228-1.149-3.856-.936-3.982z"/></g></g><path d="m40.153 23.311s-.526-3.753 3.241-5.756c1.501-.797 2.652-1.441 5.445-1.677 1.708-.142 3.271-.187 5.047.163 1.058.208 2.158.534 3.887 1.398 1.912.957 3.997 2.948 5.037 4.594.499.792 1.377 2.865 1.474 3.355.478 2.428-1.961-1.662-1.961-1.662l-7.063-4.356-8.481.111-3.61.232z" fill="#fdc117"/><path d="m60.398 31.667 4.983 7.774c.217-6.615.825-9.643-.188-12.179-2.196-5.513-5.243-7.072-8.937-8.212-5.859-1.806-12.554.345-12.554.345-2.175.833-3.696 1.685-3.549 4.388.147 2.7 1.845 3.017 2.786 3.121 1.308.144 3.348-.95 4.426-1.228 5.15-1.323 7.285-.794 9.227.183 2.181 1.099 3.834 3.125 3.806 5.808z" fill="#fff"/><path clip-rule="evenodd" d="m75.208 11.274c-.41-2.406-1.415-4.958-2.289-6.419-1.16-1.939-2.265-3.09-3.922-3.668-.363-.127-1.194-.245-1.93-.157-.715.118-1.489.412-1.811.625-1.463.968-2.249 2.355-2.896 4.521-.486 1.633-.832 4.353-.636 6.787 0 0 .343 4.059 2.224 5.924 0 0 .972 1.087 2.577 2.083.802.497 1.895 1.027 2.321 2.946l.51 3.519 1.007-.156 1.015-.097-.373-3.536c-.06-1.965.868-2.749 1.524-3.428 1.312-1.36 1.984-2.653 1.984-2.653 1.364-2.272.695-6.291.695-6.291z" fill="#fff" fill-rule="evenodd"/><path clip-rule="evenodd" d="m70.746 17.6c.537-3.303.768-10.166-2.919-15.004-.486-.639 1.657.383 2.703 1.645 1.148 1.383 1.919 3.032 2.398 4.453.62 1.836.97 3.542.93 5.007-.042 1.466-.188 1.933-.5 2.856-.142.412-.633 1.457-1.477 2.002-1.051.676-1.293 0-1.135-.959z" fill="#fdc117" fill-rule="evenodd"/><path clip-rule="evenodd" d="m84.453 21.598c-.001 0 5.191-4.376 12.77-5.436 2.512-.351 4.748-.418 7.853.4 1.351.353 3.569 1.262 5.022 2.563.937.835 2.227 2.32 2.632 4.719.755 4.476-.958 10.452-9.36 14.605 0 0 7.293-6.024 4.072-11.716-3.223-5.691-9.396-6.563-11.233-6.165-1.838.402-11.756 1.03-11.756 1.03z" fill="#fdc117" fill-rule="evenodd"/><g fill="#fff"><path clip-rule="evenodd" d="m113.214 52.037s-1.46-2.338-4.501.147c0 0-11.454 7.731-20.322 2.361 0 0-2.387-1.375-3.943-3.97 0 0-1.388-2.323.794-3.288 5.103-2.253 11.209-4.509 15.394-6.754 2.939-1.578 10.103-6.25 9.297-12.347 0 0-.308-6.167-6.337-8.874-2.304-1.032-4.87-1.831-9.638-1.279 0 0-4.9.364-9.865 3.784-3.042 2.095-6.176 5.484-8.026 10.222-1.529 3.919-2.204 8.36-1.004 14.823.746 4.021 2.952 8.824 7.503 12.346 3.771 2.919 8.854 4.806 15.012 4.105 0 0 9.519-.87 14.78-6.698-.001-.002 2.378-2.619.856-4.578zm-30.709-13.735s.347-8.442 8.861-12.218c0 0 2.669-1.302 5.933-1.1 0 0 2.425.43 3.548 1.605 0 0 3.199 2.56.281 5.441 0 0-4.362 5.233-15.399 8.521 0 .002-3.53 1.415-3.224-2.249z" fill-rule="evenodd"/><path d="m67.376 57.818c-1.084-2.398-1.32-4.214-1.702-6.459-.49-2.884-.461-8.211-.382-10.538.215-6.256.216-10.917-.53-13.387-.393-1.299 1.056-2.649-.706-1.829-1.444.672-21.207 11.319-22.491 12.14-5.255 3.359-6.649 5.439-7.766 7.953-2.629 5.927.692 12.437 3.371 14.767 4.239 3.689 10.553 3.262 13.544 1.818 2.761-1.331 6.239-3.869 6.239-3.869 1.774-1.463 3.7-1.56 4.247.185.23.735.599 2.43.941 3.122 1.059 2.137 3.819 1.734 4.974.942 2.533-1.739.616-4.057.261-4.845zm-6.962-20.79c-.217 4.213-.89 12.437-6.483 16.184-1.529 1.025-4.187 2.507-7.416 1.992-.963-.154-2.03-.368-3.286-1.396-1.532-1.25-3.085-5.245-.471-8.354 0 0 4.087-4.572 14.572-10.23.786-.426 3.304-2.449 3.084 1.804z"/><path d="m56.942 29.365s3.507-1.404.188-3.207c-3.582-1.947-.049-3.143 2.217-1.112 2.268 2.031.619 7.77-1.148 6.741-1.765-1.031-2.041-.67-1.257-2.422z"/><path clip-rule="evenodd" d="m66.913 28.176c-.934.608-1.153 1.04-1.15 2.865.001 1.344-2.059-.293-1.746-1.511.313-1.216 2.457-3.415 2.896-3.061s.358 1.475 0 1.707z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m67.957 27.434s.607-.492.518.642c-.088 1.136.755-.833.553-1.405-.204-.574-1.066-.467-1.205 0-.136.465-.243.981.134.763z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m71.391 26.278s-.026-.604.19-1.104c.141-.327.454-.648.819-.908.733-.52-.809-.276-.809-.276l-.805 1.125c0 .001.613 1.949.605 1.163z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m39.854 52.032s-1.464-2.343-4.513.147c0 0-11.479 7.749-20.367 2.366 0 0-2.393-1.379-3.953-3.978 0 0-1.39-2.328.799-3.295 5.112-2.258 11.233-4.52 15.426-6.771 2.947-1.582 10.125-6.264 9.318-12.375 0 0-.308-6.179-6.353-8.893-2.309-1.034-4.881-1.833-9.66-1.282 0 0-4.91.364-9.884 3.792-3.05 2.102-6.192 5.498-8.045 10.247-1.533 3.926-2.209 8.377-1.007 14.854.747 4.03 2.959 8.845 7.518 12.375 3.781 2.924 8.875 4.816 15.046 4.113 0 0 9.541-.872 14.814-6.714.001 0 2.386-2.622.861-4.586zm-30.779-13.765s.348-8.462 8.883-12.246c0 0 2.673-1.304 5.944-1.102 0 0 2.429.432 3.556 1.608 0 0 3.206 2.567.28 5.454 0 0-4.369 5.245-15.434 8.542.001 0-3.537 1.415-3.229-2.256z" fill-rule="evenodd"/></g></svg></a>
+                </div>
+                <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                    <h3 class="font1-2">Business Types</h3>
+                    <ul class="font1">
+                        <li><a href="#">Full Service Restaurant</a></li>
+                        <li><a href="#">Quick Service</a></li>
+                        <li><a href="#">Bars</a></li>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Food Truck</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                    <h3 class="font1-2">Pricing</h3>
+                    <ul class="font1">
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                    <h3 class="font1-2">Resources</h3>
+                    <ul class="font1">
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Our Customer</a></li>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div> -->
+                <div class="col-12 col-md-12 col-sm-12 col-xl-12 widget-bottom">
+                    <ul class="font0-9">
+                        <li>Copyright © SmartPOS</li>
+                        <li><a href="#">Privecy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="plugin/owl/dist/owl.carousel.min.js"></script>
+        <script src="icon/awsm/js/all.min.js"></script>
+        <script src="icon/awsm/js/fontawesome.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.esm.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

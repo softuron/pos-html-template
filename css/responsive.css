@@ -1,0 +1,127 @@
+@media (min-width: 3500px){
+    .topsec{
+        min-height: 1100px; 
+    }
+    .f-bg{
+    min-height: 1100px; 
+    }
+    .about {
+        padding-top: 130px;
+        margin-top: -472px;
+        background-position: 100%;
+    }
+}
+@media (min-width: 2500px){
+    .topsec{
+        min-height: 1100px; 
+    }
+    .f-bg{
+    min-height: 1100px; 
+    }
+    .about {
+        padding-top: 130px;
+        margin-top: -472px;
+        background-position: 100%;
+    }
+}
+@media (min-width: 2000px){
+    .topsec{
+        min-height: 1300px; 
+    }
+    .f-bg{
+    min-height: 1300px; 
+    }
+    .about {
+    margin-top: -212px;
+    }
+}
+@media (min-width: 1500px){
+    .about {
+    margin-top: -180px;
+    }
+}
+@media (min-width: 920px){
+    .about {
+    margin-top: -180px;
+    }
+}
+@media (max-width: 920px){
+    .about {
+    margin-top: -180px;
+    }
+    .desk{
+        display:block;
+    }
+}
+@media (max-width: 768px){
+    
+.font0-1{font-size: 0.1rem;}.font0-2{font-size: 0.1rem;}.font0-3{font-size: 0.2rem;}.font0-4{font-size: 0.3rem;}.font0-5{font-size: 0.4rem;}.font0-6{font-size:0.5rem;}.font0-7{font-size:0.6rem}.font0-8{font-size:0.6rem;}.font0-9{font-size:0.7rem}.font1{font-size:0.8rem;}.font1-1{font-size:.9rem}.font1-2{font-size:1rem}.font1-3{font-size:1.1rem}.font1-4{font-size:1.1rem}.font1-6{font-size:1.2rem}.font1-7{font-size:1.3rem}.font1-8{font-size:1.4rem}.font1-9{font-size:1.5rem}.font2{font-size:1.6rem}.font2-1{font-size:1.7rem}.font2-2{font-size:1.7rem}.font2-3{font-size:1.6rem}.font2-4{font-size:1.7rem}.font2-5{font-size:1.7rem}.font2-6{font-size:1.8rem}.font2-7{font-size:1.9rem}.font2-8{font-size:1.8rem}.font2-9{font-size:1.9rem}.font3{font-size:2rem}.font3-1{font-size:2.1rem}.font3-2{font-size:2.2rem}.font3-3{font-size:2.3rem}.font3-4{font-size:2.2rem}.font3-5{font-size:2.1rem}.font3-6{font-size:2.2rem}.font3-7{font-size:2.3rem}.font3-8{font-size:2.4rem}.font3-9{font-size:2.5rem}.font4{font-size:2.6rem}.font4-1{font-size:2.7rem}
+.font4-2{font-size: 2.8rem;}.font4-3{font-size: 2.9rem;}.font4-4{font-size: 3rem;}.font4-5{font-size:3.1rem}.font4-6{font-size:3.2rem;}.font4-7{font-size:3.3rem}.font4-8{font-size:3.4rem}.font4-9{font-size:3.5rem}.font5{font-size:3.6rem}.font5-1{font-size:3.7rem}.font5-2{font-size:3.8rem}.font5-3{font-size:3.9rem}.font5-3{font-size:4rem}.font5-4{font-size:4.1rem}.font5-4{font-size:4.2rem}.font5-5{font-size:4.2rem}.font5-6{font-size:4.2rem}.font5-7{font-size:4.3rem}.font5-8{font-size:4.3rem}.font5-9{font-size:4.4rem}.font6{font-size:4.5rem}.font6-1{font-size:4.6rem}.font6-2{font-size:4.7rem}.font6-3{font-size:4.8rem}.font6-4{font-size:4.9rem}.font6-5{font-size:5rem}.font6-6{font-size:5.1rem}.font6-7{font-size:5.2rem}.font6-8{font-size:5.3rem}.font6-9{font-size:5.4rem}.font7{font-size:5.5rem}.font7-1{font-size:5.6rem}.font7-2{font-size:5.7rem}.font7-3{font-size:5.8rem}.font8{font-size:5.9rem}.font8-1{font-size:6rem}
+
+    .topsec{
+        min-height: 1000px; 
+    }
+    .f-bg{
+    min-height: 1000px;
+    }
+    .about {
+        padding-top: 130px;
+        margin-top: -472px;
+        background-position: 100%;
+    }
+    .front-content h2 {
+    font-size: 2.5rem;
+    }
+.front-content h3 {
+    font-size: 1.1rem;
+    line-height: 1rem;
+}
+.pa-all-mid{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    transform: translateY(-32%);
+}
+.content-p h3, .service h3, .feature-content h3{
+    font-size: 1.1rem;
+}
+.title{
+    padding-top:15px;
+}
+.service-con .btn{
+    margin-bottom: 24px;
+}
+.smart-p{
+    margin-top:15px;
+    transform: translateY(-7%);
+}
+.smart-p ul li{
+    font-size: 1.1rem;
+}
+.form-control{
+    width:94%;
+}
+.title p{
+    line-height: 1.5rem;
+}
+.menu-area{
+    position:relative;
+}
+.navmenu{
+    position: absolute;
+    background: #22222240;
+    width: 100%;
+    top: 0;
+    left: 0;
+    left: -100%;
+}
+.main-menu{
+    background: #df6e7f;
+    margin-left: -10px;
+    padding: 10px 20px;
+    width: 82%;
+}
+.menu-area .navmenu .main-menu ul li{
+    display:block;
+    border-bottom:1px solid #ddd;
+}
+}

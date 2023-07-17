@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pos apps</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontawosme-->
+    <link rel="stylesheet" href="icon/awsm/css/all.min.css">
+    <link rel="stylesheet" href="icon/awsm/css/fontawesome.min.css">
+    <link rel="stylesheet" href="icon/awsm/css/fontawesome.min.css">
+    <!--ionic-->
+    <link rel="stylesheet" href="icon/ionic/css/ionicons.min.css">
+    <!--Plugin-->
+    <!--Owl-->
+    <link rel="stylesheet" href="plugin/owl/dist/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="plugin/owl/dist/assets/owl.carousel.min.css"/>
+    <!--main css-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common-responsive.css">
+</head>
+<body>
+    <header>
+        <div class="menu-area" id="navbar">
+            <div class="row">
+                <div class="col-6 col-lg-3 col-md-3 col-sm-6 col-xl-3 logo">
+                    <!-- <img src="img/lg4.png" alt="MTR POS" class="lg"> -->
+                    <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 171 75.25" height="55" viewBox="0 0 171 75.25" width="110"><path d="m55.448 6.652c3.507 1.07 4.875 3.43 5.232 4.176.098-1.264-.063-3.864-2.788-5.148-2.665-1.253-6.11-.927-6.11-.927s.815 4.798 3.207 6.232c2.387 1.433 5.59.563 5.59.563-1.482-3.44-5.131-4.896-5.131-4.896z" fill="#6bbd45"/><path d="m55.918 13.333c1.971-1.604 4.179-1.681 4.609-1.792-.529-.386-2.25-1.676-4.349-.408-1.831 1.11-3.018 3.327-3.018 3.327s3.234 1.437 5.061.563c1.507-.718 2.211-2.513 2.411-3.121-2.197.004-4.714 1.431-4.714 1.431z" fill="#39b54a"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m113.616 29.703s4.986-12.026 16.542-13.71c0 0 9.343-1.504 10.495 7.355 0 0-.261 5.462-2.804 9.045l.417-3.573-1.611-6.59-6.994-2.4-8.98 2.865z" fill="#fdc117"/><path d="m138.583 49.256-9.025-4.454c-4.016-2.412-.369-4.698-.369-4.698l4.072-2.325c5.345-3.09 6.424-7.81 6.077-10.818-.313-2.725-1.178-4.047-2.375-5.231-2.465-2.441-6.53-2.769-9.587-2.166-7.084 1.395-10.408 5.445-12.325 7.801-7.042 8.669-7.145 23.407-7.145 23.407-.009 4.8.19 7.581 1.645 10.189 1.957 3.503 5.752 2.086 5.752 2.086 3.172-1.919 1.134-5.731 1.134-5.731-1.156-3.966-.681-7.635-.681-7.635.866-6.702 5.122-3.585 5.122-3.585l7.514 5.753 6.396 4.951c2.438 1.442 5.079-.136 6.163-2.443 1.404-2.985-2.368-5.101-2.368-5.101zm-19.893-9.645s-2.873 1.29-2.788-1.658c0 0 .226-6.085 6.592-10.034 0 0 1.678-1.073 4.25-.972.81.033 2.122.15 3.108 1.041 0 0 2.774 2.181.524 4.733 0 .001-3.13 3.266-11.686 6.89z" fill="#fff"/><path d="m155.411 60.162c-.038 1.038-.795 2.389-1.726 2.899-.2.11-.664.405-1.453.441-.425.019-.92-.031-1.357-.31-.421-.267-.835-.531-1.176-1.33-.17-.394-.269-.81-.252-1.418.008-.269.098-.666.181-.908.363-1.07 1.547-2.077 2.835-2.056 1.557.022 3.006 1.123 2.948 2.682z" fill="#fff"/><path d="m139.301 25.278s.662-7.517 4.875-8.806c0 0 4.277-1.354 6.456 2.819.583 1.116.686 2.075.243 4.665-.226 1.325-1.328 3.464-1.476 4.797-.116 1.028-.103 2.599.95 3.741 1.083 1.173-1.641.635-2.013-2.964-.377-3.669-.014-7.611-1.6-8.26 0 0-3.457-2.499-5.917.388z" fill="#fdc117"/><path d="m159.261 25.983s.257-4.384.831-6.355c.156-.535.77-3.279 5.008-3.313 0 0 3.197.182 3.747 3.002.415 2.138-.099 4.639-.522 6.492-.704 3.083-2.572 5.88-3.532 7.104l1.814-4.74.203-5.614-1.162-2.108-2.043-.684-1.836.684-1.441 1.986z" fill="#fdc117"/><path d="m143.28 37.905s-4.383-2.185-4.471-6.693c0 0-.372-3.941 1.265-8.743 0 0 .951-3.885 5.007-2.841 1.479.382 4.208.977 3.746 5.885 0 0-1.023 5.356 1.843 7.219 0 0 2.289 1.434 4.742 1.66 0 0 2.696.946 3.317-3.305l.533-5.104s.207-2.22.969-4.017c0 0 1.227-2.853 4.023-2.442 0 0 3.95.453 2.843 7.421 0 0-.772 5.291-4.613 8.864-.632.591-3.185 2.88-3.185 2.88s-1.704 1.512-2.156 4.592l-.731 7.616s-.442 4.168-4.129 4.154c0 0-3.935.465-2.533-4.2 0 0 1.216-4.194.728-6.214 0 0-.496-4.214-3.292-5.16-.998-.337-3.906-1.572-3.906-1.572z" fill="#fff"/><path d="m109.476 66.094c-1.032-.938-1.118-2.009-.801-2.072.369-.074 1.001.201 1.981.663 1.535.721 2.4 1.178 5.598 2.021 2.933.775 6.353 1.502 11.326 1.686 0 0 9.651.678 17.55-3.486 0 0 2.436-1.34 3.697-1.938.698-.331 1.108.598.194 1.445-1.28 1.186-3.716 3.621-8.631 5.804-4.249 1.89-9.499 3.306-17.371 2.059-2.15-.34-5.765-1.313-8.529-2.802-1.569-.843-3.317-1.836-5.014-3.38z" fill="#fdc117"/><path d="m11.027 21.524c-.001 0 5.203-4.385 12.798-5.448 2.518-.352 4.759-.418 7.871.402 1.354.354 3.575 1.266 5.033 2.568.938.836 2.234 2.325 2.639 4.729.756 4.488-.961 10.477-9.38 14.639 0 0 7.31-6.039 4.081-11.743-3.231-5.703-9.42-6.578-11.259-6.177-1.843.403-11.783 1.03-11.783 1.03z" fill="#fdc117"/><g fill="#fff"><path d="m72.531 20.217c-.65.543-1.153.972-1.132 2.621.008.729-.023 2.038-.021 2.394.029 2.579.044 3.606 0 5.377.088 5.334.521 11.627 1.455 16.409.827 4.233 1.627 6.977 4.432 10.469.425.528.985 1.181 1.229 2.1.309 1.174-.253 2.293-1.246 2.983-2.087 1.451-4.369.221-5.933-2.548-2.393-4.029-3.511-8.424-3.688-15.933-.099-4.091.471-10.685.895-16.656.089-1.245.043-2.699 0-3.788-.025-.653-.392-1.727-1.171-2.257-.536-.366-1.781-1.479-2.041-1.663-1.29-.911 7.819-.006 7.221.492z"/><path d="m63.593 25.847c4.529-2.671 8.418-5.436 11.354-7.347 1.596-1.04 1.719-1.224 1.509-3.882-.125-1.585.484-3.022 1.767-4.159 3.168-2.807 7.126-4.765 10.497-6.34.396-.185 2.913-1.304 3.203-.959.277.329-.744.897-1.12 1.116-4.143 2.413-7.165 4.18-9.621 6.34-.428.376-1.883 1.462-1.455 2.083.368.532 1.348-.091 1.855-.388 3.201-1.882 6.615-4.093 9.801-5.969.449-.292 1.817-1.235 2.027-.842.195.365-.978 1.079-1.406 1.387-2.896 2.067-6.776 4.615-9.466 6.773-.467.378-1.369 1.027-1.086 1.572.308.596 1.442-.061 1.965-.398 2.923-1.914 6.99-4.573 9.912-6.495.48-.314 1.349-.929 1.619-.589.181.224-.719 1.03-1.165 1.351-2.953 2.263-5.961 4.373-9.103 6.688-.471.339-1.817 1.467-1.445 1.983.358.505 1.63-.167 2.144-.428 2.96-1.5 6.438-4.259 9.678-6.667.514-.438 1.398-1.277 1.68-.891.246.334-.522.985-.745 1.255-2.384 2.43-6.561 6.312-10.238 8.591-1.644 1.057-2.468 1.351-6.337.491-.839-.188-2.441.977-2.711 1.167-3.008 2.056-8.929 6.263-12.177 8.539-2.24-.228-1.149-3.856-.936-3.982z"/></g></g><path d="m40.153 23.311s-.526-3.753 3.241-5.756c1.501-.797 2.652-1.441 5.445-1.677 1.708-.142 3.271-.187 5.047.163 1.058.208 2.158.534 3.887 1.398 1.912.957 3.997 2.948 5.037 4.594.499.792 1.377 2.865 1.474 3.355.478 2.428-1.961-1.662-1.961-1.662l-7.063-4.356-8.481.111-3.61.232z" fill="#fdc117"/><path d="m60.398 31.667 4.983 7.774c.217-6.615.825-9.643-.188-12.179-2.196-5.513-5.243-7.072-8.937-8.212-5.859-1.806-12.554.345-12.554.345-2.175.833-3.696 1.685-3.549 4.388.147 2.7 1.845 3.017 2.786 3.121 1.308.144 3.348-.95 4.426-1.228 5.15-1.323 7.285-.794 9.227.183 2.181 1.099 3.834 3.125 3.806 5.808z" fill="#fff"/><path clip-rule="evenodd" d="m75.208 11.274c-.41-2.406-1.415-4.958-2.289-6.419-1.16-1.939-2.265-3.09-3.922-3.668-.363-.127-1.194-.245-1.93-.157-.715.118-1.489.412-1.811.625-1.463.968-2.249 2.355-2.896 4.521-.486 1.633-.832 4.353-.636 6.787 0 0 .343 4.059 2.224 5.924 0 0 .972 1.087 2.577 2.083.802.497 1.895 1.027 2.321 2.946l.51 3.519 1.007-.156 1.015-.097-.373-3.536c-.06-1.965.868-2.749 1.524-3.428 1.312-1.36 1.984-2.653 1.984-2.653 1.364-2.272.695-6.291.695-6.291z" fill="#fff" fill-rule="evenodd"/><path clip-rule="evenodd" d="m70.746 17.6c.537-3.303.768-10.166-2.919-15.004-.486-.639 1.657.383 2.703 1.645 1.148 1.383 1.919 3.032 2.398 4.453.62 1.836.97 3.542.93 5.007-.042 1.466-.188 1.933-.5 2.856-.142.412-.633 1.457-1.477 2.002-1.051.676-1.293 0-1.135-.959z" fill="#fdc117" fill-rule="evenodd"/><path clip-rule="evenodd" d="m84.453 21.598c-.001 0 5.191-4.376 12.77-5.436 2.512-.351 4.748-.418 7.853.4 1.351.353 3.569 1.262 5.022 2.563.937.835 2.227 2.32 2.632 4.719.755 4.476-.958 10.452-9.36 14.605 0 0 7.293-6.024 4.072-11.716-3.223-5.691-9.396-6.563-11.233-6.165-1.838.402-11.756 1.03-11.756 1.03z" fill="#fdc117" fill-rule="evenodd"/><g fill="#fff"><path clip-rule="evenodd" d="m113.214 52.037s-1.46-2.338-4.501.147c0 0-11.454 7.731-20.322 2.361 0 0-2.387-1.375-3.943-3.97 0 0-1.388-2.323.794-3.288 5.103-2.253 11.209-4.509 15.394-6.754 2.939-1.578 10.103-6.25 9.297-12.347 0 0-.308-6.167-6.337-8.874-2.304-1.032-4.87-1.831-9.638-1.279 0 0-4.9.364-9.865 3.784-3.042 2.095-6.176 5.484-8.026 10.222-1.529 3.919-2.204 8.36-1.004 14.823.746 4.021 2.952 8.824 7.503 12.346 3.771 2.919 8.854 4.806 15.012 4.105 0 0 9.519-.87 14.78-6.698-.001-.002 2.378-2.619.856-4.578zm-30.709-13.735s.347-8.442 8.861-12.218c0 0 2.669-1.302 5.933-1.1 0 0 2.425.43 3.548 1.605 0 0 3.199 2.56.281 5.441 0 0-4.362 5.233-15.399 8.521 0 .002-3.53 1.415-3.224-2.249z" fill-rule="evenodd"/><path d="m67.376 57.818c-1.084-2.398-1.32-4.214-1.702-6.459-.49-2.884-.461-8.211-.382-10.538.215-6.256.216-10.917-.53-13.387-.393-1.299 1.056-2.649-.706-1.829-1.444.672-21.207 11.319-22.491 12.14-5.255 3.359-6.649 5.439-7.766 7.953-2.629 5.927.692 12.437 3.371 14.767 4.239 3.689 10.553 3.262 13.544 1.818 2.761-1.331 6.239-3.869 6.239-3.869 1.774-1.463 3.7-1.56 4.247.185.23.735.599 2.43.941 3.122 1.059 2.137 3.819 1.734 4.974.942 2.533-1.739.616-4.057.261-4.845zm-6.962-20.79c-.217 4.213-.89 12.437-6.483 16.184-1.529 1.025-4.187 2.507-7.416 1.992-.963-.154-2.03-.368-3.286-1.396-1.532-1.25-3.085-5.245-.471-8.354 0 0 4.087-4.572 14.572-10.23.786-.426 3.304-2.449 3.084 1.804z"/><path d="m56.942 29.365s3.507-1.404.188-3.207c-3.582-1.947-.049-3.143 2.217-1.112 2.268 2.031.619 7.77-1.148 6.741-1.765-1.031-2.041-.67-1.257-2.422z"/><path clip-rule="evenodd" d="m66.913 28.176c-.934.608-1.153 1.04-1.15 2.865.001 1.344-2.059-.293-1.746-1.511.313-1.216 2.457-3.415 2.896-3.061s.358 1.475 0 1.707z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m67.957 27.434s.607-.492.518.642c-.088 1.136.755-.833.553-1.405-.204-.574-1.066-.467-1.205 0-.136.465-.243.981.134.763z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m71.391 26.278s-.026-.604.19-1.104c.141-.327.454-.648.819-.908.733-.52-.809-.276-.809-.276l-.805 1.125c0 .001.613 1.949.605 1.163z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m39.854 52.032s-1.464-2.343-4.513.147c0 0-11.479 7.749-20.367 2.366 0 0-2.393-1.379-3.953-3.978 0 0-1.39-2.328.799-3.295 5.112-2.258 11.233-4.52 15.426-6.771 2.947-1.582 10.125-6.264 9.318-12.375 0 0-.308-6.179-6.353-8.893-2.309-1.034-4.881-1.833-9.66-1.282 0 0-4.91.364-9.884 3.792-3.05 2.102-6.192 5.498-8.045 10.247-1.533 3.926-2.209 8.377-1.007 14.854.747 4.03 2.959 8.845 7.518 12.375 3.781 2.924 8.875 4.816 15.046 4.113 0 0 9.541-.872 14.814-6.714.001 0 2.386-2.622.861-4.586zm-30.779-13.765s.348-8.462 8.883-12.246c0 0 2.673-1.304 5.944-1.102 0 0 2.429.432 3.556 1.608 0 0 3.206 2.567.28 5.454 0 0-4.369 5.245-15.434 8.542.001 0-3.537 1.415-3.229-2.256z" fill-rule="evenodd"/></g></svg></a>
+                </div>
+                <div class="col-6 col-lg-9 col-md-9 col-sm-6 col-xl-9 mob"><i id="show" class="mob bar-icon fa-solid fa-bars-staggered"></i></div>
+                <div class="col-6 col-lg-9 col-md-9 col-sm-6 col-xl-9 navmenu" id="navmenu">
+                    <nav class="main-menu">
+                        <a href="index.html"></a><svg class="mob" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 171 75.25" height="55" viewBox="0 0 171 75.25" width="110"><path d="m55.448 6.652c3.507 1.07 4.875 3.43 5.232 4.176.098-1.264-.063-3.864-2.788-5.148-2.665-1.253-6.11-.927-6.11-.927s.815 4.798 3.207 6.232c2.387 1.433 5.59.563 5.59.563-1.482-3.44-5.131-4.896-5.131-4.896z" fill="#6bbd45"/><path d="m55.918 13.333c1.971-1.604 4.179-1.681 4.609-1.792-.529-.386-2.25-1.676-4.349-.408-1.831 1.11-3.018 3.327-3.018 3.327s3.234 1.437 5.061.563c1.507-.718 2.211-2.513 2.411-3.121-2.197.004-4.714 1.431-4.714 1.431z" fill="#39b54a"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m113.616 29.703s4.986-12.026 16.542-13.71c0 0 9.343-1.504 10.495 7.355 0 0-.261 5.462-2.804 9.045l.417-3.573-1.611-6.59-6.994-2.4-8.98 2.865z" fill="#fdc117"/><path d="m138.583 49.256-9.025-4.454c-4.016-2.412-.369-4.698-.369-4.698l4.072-2.325c5.345-3.09 6.424-7.81 6.077-10.818-.313-2.725-1.178-4.047-2.375-5.231-2.465-2.441-6.53-2.769-9.587-2.166-7.084 1.395-10.408 5.445-12.325 7.801-7.042 8.669-7.145 23.407-7.145 23.407-.009 4.8.19 7.581 1.645 10.189 1.957 3.503 5.752 2.086 5.752 2.086 3.172-1.919 1.134-5.731 1.134-5.731-1.156-3.966-.681-7.635-.681-7.635.866-6.702 5.122-3.585 5.122-3.585l7.514 5.753 6.396 4.951c2.438 1.442 5.079-.136 6.163-2.443 1.404-2.985-2.368-5.101-2.368-5.101zm-19.893-9.645s-2.873 1.29-2.788-1.658c0 0 .226-6.085 6.592-10.034 0 0 1.678-1.073 4.25-.972.81.033 2.122.15 3.108 1.041 0 0 2.774 2.181.524 4.733 0 .001-3.13 3.266-11.686 6.89z" fill="#fff"/><path d="m155.411 60.162c-.038 1.038-.795 2.389-1.726 2.899-.2.11-.664.405-1.453.441-.425.019-.92-.031-1.357-.31-.421-.267-.835-.531-1.176-1.33-.17-.394-.269-.81-.252-1.418.008-.269.098-.666.181-.908.363-1.07 1.547-2.077 2.835-2.056 1.557.022 3.006 1.123 2.948 2.682z" fill="#fff"/><path d="m139.301 25.278s.662-7.517 4.875-8.806c0 0 4.277-1.354 6.456 2.819.583 1.116.686 2.075.243 4.665-.226 1.325-1.328 3.464-1.476 4.797-.116 1.028-.103 2.599.95 3.741 1.083 1.173-1.641.635-2.013-2.964-.377-3.669-.014-7.611-1.6-8.26 0 0-3.457-2.499-5.917.388z" fill="#fdc117"/><path d="m159.261 25.983s.257-4.384.831-6.355c.156-.535.77-3.279 5.008-3.313 0 0 3.197.182 3.747 3.002.415 2.138-.099 4.639-.522 6.492-.704 3.083-2.572 5.88-3.532 7.104l1.814-4.74.203-5.614-1.162-2.108-2.043-.684-1.836.684-1.441 1.986z" fill="#fdc117"/><path d="m143.28 37.905s-4.383-2.185-4.471-6.693c0 0-.372-3.941 1.265-8.743 0 0 .951-3.885 5.007-2.841 1.479.382 4.208.977 3.746 5.885 0 0-1.023 5.356 1.843 7.219 0 0 2.289 1.434 4.742 1.66 0 0 2.696.946 3.317-3.305l.533-5.104s.207-2.22.969-4.017c0 0 1.227-2.853 4.023-2.442 0 0 3.95.453 2.843 7.421 0 0-.772 5.291-4.613 8.864-.632.591-3.185 2.88-3.185 2.88s-1.704 1.512-2.156 4.592l-.731 7.616s-.442 4.168-4.129 4.154c0 0-3.935.465-2.533-4.2 0 0 1.216-4.194.728-6.214 0 0-.496-4.214-3.292-5.16-.998-.337-3.906-1.572-3.906-1.572z" fill="#fff"/><path d="m109.476 66.094c-1.032-.938-1.118-2.009-.801-2.072.369-.074 1.001.201 1.981.663 1.535.721 2.4 1.178 5.598 2.021 2.933.775 6.353 1.502 11.326 1.686 0 0 9.651.678 17.55-3.486 0 0 2.436-1.34 3.697-1.938.698-.331 1.108.598.194 1.445-1.28 1.186-3.716 3.621-8.631 5.804-4.249 1.89-9.499 3.306-17.371 2.059-2.15-.34-5.765-1.313-8.529-2.802-1.569-.843-3.317-1.836-5.014-3.38z" fill="#fdc117"/><path d="m11.027 21.524c-.001 0 5.203-4.385 12.798-5.448 2.518-.352 4.759-.418 7.871.402 1.354.354 3.575 1.266 5.033 2.568.938.836 2.234 2.325 2.639 4.729.756 4.488-.961 10.477-9.38 14.639 0 0 7.31-6.039 4.081-11.743-3.231-5.703-9.42-6.578-11.259-6.177-1.843.403-11.783 1.03-11.783 1.03z" fill="#fdc117"/><g fill="#fff"><path d="m72.531 20.217c-.65.543-1.153.972-1.132 2.621.008.729-.023 2.038-.021 2.394.029 2.579.044 3.606 0 5.377.088 5.334.521 11.627 1.455 16.409.827 4.233 1.627 6.977 4.432 10.469.425.528.985 1.181 1.229 2.1.309 1.174-.253 2.293-1.246 2.983-2.087 1.451-4.369.221-5.933-2.548-2.393-4.029-3.511-8.424-3.688-15.933-.099-4.091.471-10.685.895-16.656.089-1.245.043-2.699 0-3.788-.025-.653-.392-1.727-1.171-2.257-.536-.366-1.781-1.479-2.041-1.663-1.29-.911 7.819-.006 7.221.492z"/><path d="m63.593 25.847c4.529-2.671 8.418-5.436 11.354-7.347 1.596-1.04 1.719-1.224 1.509-3.882-.125-1.585.484-3.022 1.767-4.159 3.168-2.807 7.126-4.765 10.497-6.34.396-.185 2.913-1.304 3.203-.959.277.329-.744.897-1.12 1.116-4.143 2.413-7.165 4.18-9.621 6.34-.428.376-1.883 1.462-1.455 2.083.368.532 1.348-.091 1.855-.388 3.201-1.882 6.615-4.093 9.801-5.969.449-.292 1.817-1.235 2.027-.842.195.365-.978 1.079-1.406 1.387-2.896 2.067-6.776 4.615-9.466 6.773-.467.378-1.369 1.027-1.086 1.572.308.596 1.442-.061 1.965-.398 2.923-1.914 6.99-4.573 9.912-6.495.48-.314 1.349-.929 1.619-.589.181.224-.719 1.03-1.165 1.351-2.953 2.263-5.961 4.373-9.103 6.688-.471.339-1.817 1.467-1.445 1.983.358.505 1.63-.167 2.144-.428 2.96-1.5 6.438-4.259 9.678-6.667.514-.438 1.398-1.277 1.68-.891.246.334-.522.985-.745 1.255-2.384 2.43-6.561 6.312-10.238 8.591-1.644 1.057-2.468 1.351-6.337.491-.839-.188-2.441.977-2.711 1.167-3.008 2.056-8.929 6.263-12.177 8.539-2.24-.228-1.149-3.856-.936-3.982z"/></g></g><path d="m40.153 23.311s-.526-3.753 3.241-5.756c1.501-.797 2.652-1.441 5.445-1.677 1.708-.142 3.271-.187 5.047.163 1.058.208 2.158.534 3.887 1.398 1.912.957 3.997 2.948 5.037 4.594.499.792 1.377 2.865 1.474 3.355.478 2.428-1.961-1.662-1.961-1.662l-7.063-4.356-8.481.111-3.61.232z" fill="#fdc117"/><path d="m60.398 31.667 4.983 7.774c.217-6.615.825-9.643-.188-12.179-2.196-5.513-5.243-7.072-8.937-8.212-5.859-1.806-12.554.345-12.554.345-2.175.833-3.696 1.685-3.549 4.388.147 2.7 1.845 3.017 2.786 3.121 1.308.144 3.348-.95 4.426-1.228 5.15-1.323 7.285-.794 9.227.183 2.181 1.099 3.834 3.125 3.806 5.808z" fill="#fff"/><path clip-rule="evenodd" d="m75.208 11.274c-.41-2.406-1.415-4.958-2.289-6.419-1.16-1.939-2.265-3.09-3.922-3.668-.363-.127-1.194-.245-1.93-.157-.715.118-1.489.412-1.811.625-1.463.968-2.249 2.355-2.896 4.521-.486 1.633-.832 4.353-.636 6.787 0 0 .343 4.059 2.224 5.924 0 0 .972 1.087 2.577 2.083.802.497 1.895 1.027 2.321 2.946l.51 3.519 1.007-.156 1.015-.097-.373-3.536c-.06-1.965.868-2.749 1.524-3.428 1.312-1.36 1.984-2.653 1.984-2.653 1.364-2.272.695-6.291.695-6.291z" fill="#fff" fill-rule="evenodd"/><path clip-rule="evenodd" d="m70.746 17.6c.537-3.303.768-10.166-2.919-15.004-.486-.639 1.657.383 2.703 1.645 1.148 1.383 1.919 3.032 2.398 4.453.62 1.836.97 3.542.93 5.007-.042 1.466-.188 1.933-.5 2.856-.142.412-.633 1.457-1.477 2.002-1.051.676-1.293 0-1.135-.959z" fill="#fdc117" fill-rule="evenodd"/><path clip-rule="evenodd" d="m84.453 21.598c-.001 0 5.191-4.376 12.77-5.436 2.512-.351 4.748-.418 7.853.4 1.351.353 3.569 1.262 5.022 2.563.937.835 2.227 2.32 2.632 4.719.755 4.476-.958 10.452-9.36 14.605 0 0 7.293-6.024 4.072-11.716-3.223-5.691-9.396-6.563-11.233-6.165-1.838.402-11.756 1.03-11.756 1.03z" fill="#fdc117" fill-rule="evenodd"/><g fill="#fff"><path clip-rule="evenodd" d="m113.214 52.037s-1.46-2.338-4.501.147c0 0-11.454 7.731-20.322 2.361 0 0-2.387-1.375-3.943-3.97 0 0-1.388-2.323.794-3.288 5.103-2.253 11.209-4.509 15.394-6.754 2.939-1.578 10.103-6.25 9.297-12.347 0 0-.308-6.167-6.337-8.874-2.304-1.032-4.87-1.831-9.638-1.279 0 0-4.9.364-9.865 3.784-3.042 2.095-6.176 5.484-8.026 10.222-1.529 3.919-2.204 8.36-1.004 14.823.746 4.021 2.952 8.824 7.503 12.346 3.771 2.919 8.854 4.806 15.012 4.105 0 0 9.519-.87 14.78-6.698-.001-.002 2.378-2.619.856-4.578zm-30.709-13.735s.347-8.442 8.861-12.218c0 0 2.669-1.302 5.933-1.1 0 0 2.425.43 3.548 1.605 0 0 3.199 2.56.281 5.441 0 0-4.362 5.233-15.399 8.521 0 .002-3.53 1.415-3.224-2.249z" fill-rule="evenodd"/><path d="m67.376 57.818c-1.084-2.398-1.32-4.214-1.702-6.459-.49-2.884-.461-8.211-.382-10.538.215-6.256.216-10.917-.53-13.387-.393-1.299 1.056-2.649-.706-1.829-1.444.672-21.207 11.319-22.491 12.14-5.255 3.359-6.649 5.439-7.766 7.953-2.629 5.927.692 12.437 3.371 14.767 4.239 3.689 10.553 3.262 13.544 1.818 2.761-1.331 6.239-3.869 6.239-3.869 1.774-1.463 3.7-1.56 4.247.185.23.735.599 2.43.941 3.122 1.059 2.137 3.819 1.734 4.974.942 2.533-1.739.616-4.057.261-4.845zm-6.962-20.79c-.217 4.213-.89 12.437-6.483 16.184-1.529 1.025-4.187 2.507-7.416 1.992-.963-.154-2.03-.368-3.286-1.396-1.532-1.25-3.085-5.245-.471-8.354 0 0 4.087-4.572 14.572-10.23.786-.426 3.304-2.449 3.084 1.804z"/><path d="m56.942 29.365s3.507-1.404.188-3.207c-3.582-1.947-.049-3.143 2.217-1.112 2.268 2.031.619 7.77-1.148 6.741-1.765-1.031-2.041-.67-1.257-2.422z"/><path clip-rule="evenodd" d="m66.913 28.176c-.934.608-1.153 1.04-1.15 2.865.001 1.344-2.059-.293-1.746-1.511.313-1.216 2.457-3.415 2.896-3.061s.358 1.475 0 1.707z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m67.957 27.434s.607-.492.518.642c-.088 1.136.755-.833.553-1.405-.204-.574-1.066-.467-1.205 0-.136.465-.243.981.134.763z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m71.391 26.278s-.026-.604.19-1.104c.141-.327.454-.648.819-.908.733-.52-.809-.276-.809-.276l-.805 1.125c0 .001.613 1.949.605 1.163z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m39.854 52.032s-1.464-2.343-4.513.147c0 0-11.479 7.749-20.367 2.366 0 0-2.393-1.379-3.953-3.978 0 0-1.39-2.328.799-3.295 5.112-2.258 11.233-4.52 15.426-6.771 2.947-1.582 10.125-6.264 9.318-12.375 0 0-.308-6.179-6.353-8.893-2.309-1.034-4.881-1.833-9.66-1.282 0 0-4.91.364-9.884 3.792-3.05 2.102-6.192 5.498-8.045 10.247-1.533 3.926-2.209 8.377-1.007 14.854.747 4.03 2.959 8.845 7.518 12.375 3.781 2.924 8.875 4.816 15.046 4.113 0 0 9.541-.872 14.814-6.714.001 0 2.386-2.622.861-4.586zm-30.779-13.765s.348-8.462 8.883-12.246c0 0 2.673-1.304 5.944-1.102 0 0 2.429.432 3.556 1.608 0 0 3.206 2.567.28 5.454 0 0-4.369 5.245-15.434 8.542.001 0-3.537 1.415-3.229-2.256z" fill-rule="evenodd"/></g></svg></a>
+                        <ul>
+                            <li><a class="font1" href="index.html">Home</a></li>
+                            <li><a class="font1" href="#">Feature <i class="fa-solid fa-angle-down"></i></a>
+                                <ul>
+                                    <li><a href="overview.html">Overview</a></li>
+                                    <li><a href="#feature">Key Feature</a></li>
+                                    <li><a href="point-of-sale.html">point of sale</a></li>
+                                    <li><a href="cloudsync.html">CloudSync</a></li>
+                                    <li><a href="online-order.html">Online Ordering</a></li>
+                                    <li><a href="tablebooking.html">Table Booking</a></li>
+                                    <li><a href="inventory.html">Inventory Management</a></li>
+                                    <li><a href="customer-experience.html">Customer Experience</a></li>
+                                    <li><a href="reporting.html">Reporting and Insights</a></li>
+                                    <li><a href="kithen.html">Kitchen Display System</a></li>
+                                    <li><a href="multiple-terminals.html">Multiple terminals</a></li>
+                                    <li><a href="integrations.html">integration</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="font1" href="#">Business Types <i class="fa-solid fa-angle-down"></i></a>
+                                <ul>
+                                    <li><a href="full-service.html">Full Service Restaurant</a></li>
+                                    <li><a href="quick.html">Quick Service</a></li>
+                                    <li><a href="bars.html">Bars</a></li>
+                                    <li><a href="retail.html">Retail</a></li>
+                                    <li><a href="food-truck.html">Food Truck</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="font1" href="#screen">Screens</a></li>
+                            <li><a class="font1" href="#clients">Clients</a></li>
+                            <li><a class="font1" href="#price">Price</a></li>
+                            <li><a class="font1" href="#">Resources <i class="fa-solid fa-angle-down"></i></a> 
+                                <ul>
+                                    <li><a href="hardware.html">Hardware</a></li>
+                                    <li><a href="customer.html">Our customer</a></li>
+                                    <li><a href="guide.html">Guide</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="food-truck.html">Food Truck</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="font1" href="#contact">Contacts</a></li>
+                            <li class="hlgbtn"><a class="font1" href="#demo"><span>Request</span> Demo</a></li>
+                        </ul>
+                    </nav>
+                    <i class="mob fa-solid cross-bar-icon fa-rectangle-xmark"></i>
+                </div>
+            </div> 
+        </div>
+    </header>
+        <section class="page-front" id="">
+            <div class="col-12 section pd-tb-80 content-page">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h2 class="font1-6"><span class="highlites">Recommended </span>Hardware</h2>
+                        <div class="line-shape"></div>
+                        <p>SmartPOS hardware solutions to get your business set up right.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 page">
+                        <div class="page-con">
+                            <center><img src="img/smartpos-hardware-1200.png" alt=""></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solution" id="">
+            <div class="col-12 section pd-tb-90 content-services">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h2>Printer</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 title">
+                        <h3>Ethernet Printer</h3>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/epson-tm-t20.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Epson </span>TM-T20</h3>  
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/epson-tm-t88.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Epson </span>TM-T88</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/epson-tm-m30.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Epson </span>TM-M30</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/epson-tm-u220.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Epson </span>TM-U220</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-tsp-100.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>TSP-100</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-tsp-650.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>TSP-650</h3> 
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-tsp-700.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>TSP-700</h3>  
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/rongta-rp410.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Rongta</span> RP410 (Label)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                    Ethernet printer requires network cable connection to the router, commonly used for the kitchen.
+Alternatively you can use Wi-Fi printer with the same model.
+                </div>
+                <div class="row">
+                    <div class="col-12 title">
+                        <h3>Bluetooth Printer</h3>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/epson-tm-m30.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Epson </span>TM-M30</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-tsp-100bti.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>TSP-100 BTi</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-tsp-650.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>TSP-650 BTi</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-sm-s220i.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>SM-S220i</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-sm-l200.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star</span> SM-L200</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-sm-l200.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star</span> SM-L200</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                        Bluetooth printer is suitable for environment like kiosk/pop up store.
+                        Simple to setup, but not able to support more than 1 printer per device generally.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 title">
+                        <h3>USB Printer</h3>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/star-tsp-100.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Star </span>TSP-100</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                        Star TSP-100 is the only USB printer that is supported by MobiPOS.
+                        A special USB cable has to be connected to the iPad's lightning port in order to work.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients" id="clients">
+            <div class="section pd-tb-20 client-section">
+                <div class="row">
+                    <div class="col-12 section-content">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-12 mrt-client">
+                                <div class="client-slide">
+                                    <div class="clients-owl">
+                                        <div><img src="img/rb-ribs.png" alt="Smart POS APP"></div>
+                                        <div><img src="img/basket-brothers.png" alt="Smart POS APP"></div>
+                                        <div><img src="img/ibarber.png" alt="Smart POS APP"></div>
+                                        <div><img src="img/mama-bear.png" alt="Smart POS APP"></div>
+                                        <div><img src="img/nahm-thai.png" alt="Smart POS APP"></div>
+                                        <div><img src="img/savior-brand.png" alt="Smart POS APP"></div>
+                                        <div><img src="img/zelicious-pizza.png" alt="Smart POS APP"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Clients Slider end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="apps-gray" id="">
+            <div class="section pd-tb-30 apps-section">
+                <div class="row">
+                    <div class="col-12 section-content">
+                        <div class="price-section">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 content-p"></div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 content-p">
+                                    <div class="smart-p itemsd">
+                                        <h3>Still have questions about printer?</h3>
+                                        <center><button>Learn More</button></center>
+                                        <h4>The printer that you're looking for is not listed here?</h4>
+                                        <p>From time to time we will add support to more printers, so do feedback to us if you are having a printer that is not supported.
+                                            Generally any printer that support ESC/POS command with ethernet port will work.
+                                            However before spending your hard earned money, it is advisable to talk to us before purchasing.</p>
+                                    </div>  
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 content-p"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solutions" id="">
+            <div class="col-12 section pd-tb-30 content-services">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h2>Cash Drawer</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/cs-410.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">CS-410 </span></h3>  
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/dk-aircash.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">DK-AirCash</span> Drawer</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                        Any cash drawer that has a RJ11 connector will work, more importantly its the choice of your printer as cash drawer is connected to the printer.
+                        AirCash Drawer enables is not a cash drawer but it allows existing cash drawer to be kicked using Ethernet interface.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solutions" id="">
+            <div class="col-12 section pd-tb-30 content-services">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h2>Bluetooth Barcode Scanner</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/socket-mobile.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">Socket </span>Mobile</h3>  
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 cl-xl-3 service">
+                        <div class="service-device">
+                            <figure>
+                                <a href="#"><img class="service-icon" src="img/ct10.png" alt=""></a>
+                            </figure>
+                            <h3><span class="highlites">CT-10</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 cl-xl-12 service">
+                        Any iOS supported bluetooth scanner will work with MobiPOS.
+                        However better bluetooth scanner allows the on-screen keyboard of iPad to be toggled using an integrated button.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="demo-request" id="demo">
+            <div class="section pd-tb-80 demo-section">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h2 class="font1-6"><span class="highlites">Request a</span> Demo</h2>
+                        <div class="line-shape"></div>
+                        <p>Get to know Eatery and its services better by experiencing a live demonstration of the software.
+                            Just place a demo request and we will contact you within 24 hours.</p> 
+                    </div>
+                    <div class="col-12 section-content">
+                        <form action="post">
+                            <div class="row demo-form">
+                                <div class="col-12 col-sm-12 col-md-6 col-xl-6 demo-part">
+                                    <input class="form-control" type="text" name="name" placeholder="Name">
+                                    <input class="form-control" type="email" name="email" placeholder="Email">
+                                    <input class="form-control" type="text" name="phone" placeholder="Phone">
+                                    <input class="form-control" type="text" name="organization" placeholder="Organization">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-xl-6 demo-part">
+                                    <label style="padding-top:10px">Are you:</label>
+                                    <input class="form-check-input" type="radio" role="switch" name="who" value="Owner">Owner
+                                    <input class="form-check-input" type="radio" role="switch" name="who" value="Manager">Manager
+                                    <input class="form-check-input" type="radio" role="switch" name="who" value="Other">Other
+                                    <br>
+                                    <br>
+                                    <label>Organization Age: </label>
+                                    <select class="form-select" aria-label="Default select example" name="organization-age" >
+                                        <option value="1-2 years">1-2 years</option>
+                                        <option value="2-5 years">2-5 years</option>
+                                        <option value="5-10 years">5-10 years</option>
+                                    </select><br>
+                                    <label>Organization Type:</label>
+                                    <select class="form-select" aria-label="Default select example" name="organization-type" >
+                                        <option value="Pos value one">Pos value one</option>
+                                        <option value="pos value two">pos value two</option>
+                                        <option value="pos value three">pos value three</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-xl-12 demo-part">
+                                    <input class="submit" type="submit" name="submit" value="Go to for demo">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <!-- <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 171 75.25" height="55" viewBox="0 0 171 75.25" width="110"><path d="m55.448 6.652c3.507 1.07 4.875 3.43 5.232 4.176.098-1.264-.063-3.864-2.788-5.148-2.665-1.253-6.11-.927-6.11-.927s.815 4.798 3.207 6.232c2.387 1.433 5.59.563 5.59.563-1.482-3.44-5.131-4.896-5.131-4.896z" fill="#6bbd45"/><path d="m55.918 13.333c1.971-1.604 4.179-1.681 4.609-1.792-.529-.386-2.25-1.676-4.349-.408-1.831 1.11-3.018 3.327-3.018 3.327s3.234 1.437 5.061.563c1.507-.718 2.211-2.513 2.411-3.121-2.197.004-4.714 1.431-4.714 1.431z" fill="#39b54a"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m113.616 29.703s4.986-12.026 16.542-13.71c0 0 9.343-1.504 10.495 7.355 0 0-.261 5.462-2.804 9.045l.417-3.573-1.611-6.59-6.994-2.4-8.98 2.865z" fill="#fdc117"/><path d="m138.583 49.256-9.025-4.454c-4.016-2.412-.369-4.698-.369-4.698l4.072-2.325c5.345-3.09 6.424-7.81 6.077-10.818-.313-2.725-1.178-4.047-2.375-5.231-2.465-2.441-6.53-2.769-9.587-2.166-7.084 1.395-10.408 5.445-12.325 7.801-7.042 8.669-7.145 23.407-7.145 23.407-.009 4.8.19 7.581 1.645 10.189 1.957 3.503 5.752 2.086 5.752 2.086 3.172-1.919 1.134-5.731 1.134-5.731-1.156-3.966-.681-7.635-.681-7.635.866-6.702 5.122-3.585 5.122-3.585l7.514 5.753 6.396 4.951c2.438 1.442 5.079-.136 6.163-2.443 1.404-2.985-2.368-5.101-2.368-5.101zm-19.893-9.645s-2.873 1.29-2.788-1.658c0 0 .226-6.085 6.592-10.034 0 0 1.678-1.073 4.25-.972.81.033 2.122.15 3.108 1.041 0 0 2.774 2.181.524 4.733 0 .001-3.13 3.266-11.686 6.89z" fill="#fff"/><path d="m155.411 60.162c-.038 1.038-.795 2.389-1.726 2.899-.2.11-.664.405-1.453.441-.425.019-.92-.031-1.357-.31-.421-.267-.835-.531-1.176-1.33-.17-.394-.269-.81-.252-1.418.008-.269.098-.666.181-.908.363-1.07 1.547-2.077 2.835-2.056 1.557.022 3.006 1.123 2.948 2.682z" fill="#fff"/><path d="m139.301 25.278s.662-7.517 4.875-8.806c0 0 4.277-1.354 6.456 2.819.583 1.116.686 2.075.243 4.665-.226 1.325-1.328 3.464-1.476 4.797-.116 1.028-.103 2.599.95 3.741 1.083 1.173-1.641.635-2.013-2.964-.377-3.669-.014-7.611-1.6-8.26 0 0-3.457-2.499-5.917.388z" fill="#fdc117"/><path d="m159.261 25.983s.257-4.384.831-6.355c.156-.535.77-3.279 5.008-3.313 0 0 3.197.182 3.747 3.002.415 2.138-.099 4.639-.522 6.492-.704 3.083-2.572 5.88-3.532 7.104l1.814-4.74.203-5.614-1.162-2.108-2.043-.684-1.836.684-1.441 1.986z" fill="#fdc117"/><path d="m143.28 37.905s-4.383-2.185-4.471-6.693c0 0-.372-3.941 1.265-8.743 0 0 .951-3.885 5.007-2.841 1.479.382 4.208.977 3.746 5.885 0 0-1.023 5.356 1.843 7.219 0 0 2.289 1.434 4.742 1.66 0 0 2.696.946 3.317-3.305l.533-5.104s.207-2.22.969-4.017c0 0 1.227-2.853 4.023-2.442 0 0 3.95.453 2.843 7.421 0 0-.772 5.291-4.613 8.864-.632.591-3.185 2.88-3.185 2.88s-1.704 1.512-2.156 4.592l-.731 7.616s-.442 4.168-4.129 4.154c0 0-3.935.465-2.533-4.2 0 0 1.216-4.194.728-6.214 0 0-.496-4.214-3.292-5.16-.998-.337-3.906-1.572-3.906-1.572z" fill="#fff"/><path d="m109.476 66.094c-1.032-.938-1.118-2.009-.801-2.072.369-.074 1.001.201 1.981.663 1.535.721 2.4 1.178 5.598 2.021 2.933.775 6.353 1.502 11.326 1.686 0 0 9.651.678 17.55-3.486 0 0 2.436-1.34 3.697-1.938.698-.331 1.108.598.194 1.445-1.28 1.186-3.716 3.621-8.631 5.804-4.249 1.89-9.499 3.306-17.371 2.059-2.15-.34-5.765-1.313-8.529-2.802-1.569-.843-3.317-1.836-5.014-3.38z" fill="#fdc117"/><path d="m11.027 21.524c-.001 0 5.203-4.385 12.798-5.448 2.518-.352 4.759-.418 7.871.402 1.354.354 3.575 1.266 5.033 2.568.938.836 2.234 2.325 2.639 4.729.756 4.488-.961 10.477-9.38 14.639 0 0 7.31-6.039 4.081-11.743-3.231-5.703-9.42-6.578-11.259-6.177-1.843.403-11.783 1.03-11.783 1.03z" fill="#fdc117"/><g fill="#fff"><path d="m72.531 20.217c-.65.543-1.153.972-1.132 2.621.008.729-.023 2.038-.021 2.394.029 2.579.044 3.606 0 5.377.088 5.334.521 11.627 1.455 16.409.827 4.233 1.627 6.977 4.432 10.469.425.528.985 1.181 1.229 2.1.309 1.174-.253 2.293-1.246 2.983-2.087 1.451-4.369.221-5.933-2.548-2.393-4.029-3.511-8.424-3.688-15.933-.099-4.091.471-10.685.895-16.656.089-1.245.043-2.699 0-3.788-.025-.653-.392-1.727-1.171-2.257-.536-.366-1.781-1.479-2.041-1.663-1.29-.911 7.819-.006 7.221.492z"/><path d="m63.593 25.847c4.529-2.671 8.418-5.436 11.354-7.347 1.596-1.04 1.719-1.224 1.509-3.882-.125-1.585.484-3.022 1.767-4.159 3.168-2.807 7.126-4.765 10.497-6.34.396-.185 2.913-1.304 3.203-.959.277.329-.744.897-1.12 1.116-4.143 2.413-7.165 4.18-9.621 6.34-.428.376-1.883 1.462-1.455 2.083.368.532 1.348-.091 1.855-.388 3.201-1.882 6.615-4.093 9.801-5.969.449-.292 1.817-1.235 2.027-.842.195.365-.978 1.079-1.406 1.387-2.896 2.067-6.776 4.615-9.466 6.773-.467.378-1.369 1.027-1.086 1.572.308.596 1.442-.061 1.965-.398 2.923-1.914 6.99-4.573 9.912-6.495.48-.314 1.349-.929 1.619-.589.181.224-.719 1.03-1.165 1.351-2.953 2.263-5.961 4.373-9.103 6.688-.471.339-1.817 1.467-1.445 1.983.358.505 1.63-.167 2.144-.428 2.96-1.5 6.438-4.259 9.678-6.667.514-.438 1.398-1.277 1.68-.891.246.334-.522.985-.745 1.255-2.384 2.43-6.561 6.312-10.238 8.591-1.644 1.057-2.468 1.351-6.337.491-.839-.188-2.441.977-2.711 1.167-3.008 2.056-8.929 6.263-12.177 8.539-2.24-.228-1.149-3.856-.936-3.982z"/></g></g><path d="m40.153 23.311s-.526-3.753 3.241-5.756c1.501-.797 2.652-1.441 5.445-1.677 1.708-.142 3.271-.187 5.047.163 1.058.208 2.158.534 3.887 1.398 1.912.957 3.997 2.948 5.037 4.594.499.792 1.377 2.865 1.474 3.355.478 2.428-1.961-1.662-1.961-1.662l-7.063-4.356-8.481.111-3.61.232z" fill="#fdc117"/><path d="m60.398 31.667 4.983 7.774c.217-6.615.825-9.643-.188-12.179-2.196-5.513-5.243-7.072-8.937-8.212-5.859-1.806-12.554.345-12.554.345-2.175.833-3.696 1.685-3.549 4.388.147 2.7 1.845 3.017 2.786 3.121 1.308.144 3.348-.95 4.426-1.228 5.15-1.323 7.285-.794 9.227.183 2.181 1.099 3.834 3.125 3.806 5.808z" fill="#fff"/><path clip-rule="evenodd" d="m75.208 11.274c-.41-2.406-1.415-4.958-2.289-6.419-1.16-1.939-2.265-3.09-3.922-3.668-.363-.127-1.194-.245-1.93-.157-.715.118-1.489.412-1.811.625-1.463.968-2.249 2.355-2.896 4.521-.486 1.633-.832 4.353-.636 6.787 0 0 .343 4.059 2.224 5.924 0 0 .972 1.087 2.577 2.083.802.497 1.895 1.027 2.321 2.946l.51 3.519 1.007-.156 1.015-.097-.373-3.536c-.06-1.965.868-2.749 1.524-3.428 1.312-1.36 1.984-2.653 1.984-2.653 1.364-2.272.695-6.291.695-6.291z" fill="#fff" fill-rule="evenodd"/><path clip-rule="evenodd" d="m70.746 17.6c.537-3.303.768-10.166-2.919-15.004-.486-.639 1.657.383 2.703 1.645 1.148 1.383 1.919 3.032 2.398 4.453.62 1.836.97 3.542.93 5.007-.042 1.466-.188 1.933-.5 2.856-.142.412-.633 1.457-1.477 2.002-1.051.676-1.293 0-1.135-.959z" fill="#fdc117" fill-rule="evenodd"/><path clip-rule="evenodd" d="m84.453 21.598c-.001 0 5.191-4.376 12.77-5.436 2.512-.351 4.748-.418 7.853.4 1.351.353 3.569 1.262 5.022 2.563.937.835 2.227 2.32 2.632 4.719.755 4.476-.958 10.452-9.36 14.605 0 0 7.293-6.024 4.072-11.716-3.223-5.691-9.396-6.563-11.233-6.165-1.838.402-11.756 1.03-11.756 1.03z" fill="#fdc117" fill-rule="evenodd"/><g fill="#fff"><path clip-rule="evenodd" d="m113.214 52.037s-1.46-2.338-4.501.147c0 0-11.454 7.731-20.322 2.361 0 0-2.387-1.375-3.943-3.97 0 0-1.388-2.323.794-3.288 5.103-2.253 11.209-4.509 15.394-6.754 2.939-1.578 10.103-6.25 9.297-12.347 0 0-.308-6.167-6.337-8.874-2.304-1.032-4.87-1.831-9.638-1.279 0 0-4.9.364-9.865 3.784-3.042 2.095-6.176 5.484-8.026 10.222-1.529 3.919-2.204 8.36-1.004 14.823.746 4.021 2.952 8.824 7.503 12.346 3.771 2.919 8.854 4.806 15.012 4.105 0 0 9.519-.87 14.78-6.698-.001-.002 2.378-2.619.856-4.578zm-30.709-13.735s.347-8.442 8.861-12.218c0 0 2.669-1.302 5.933-1.1 0 0 2.425.43 3.548 1.605 0 0 3.199 2.56.281 5.441 0 0-4.362 5.233-15.399 8.521 0 .002-3.53 1.415-3.224-2.249z" fill-rule="evenodd"/><path d="m67.376 57.818c-1.084-2.398-1.32-4.214-1.702-6.459-.49-2.884-.461-8.211-.382-10.538.215-6.256.216-10.917-.53-13.387-.393-1.299 1.056-2.649-.706-1.829-1.444.672-21.207 11.319-22.491 12.14-5.255 3.359-6.649 5.439-7.766 7.953-2.629 5.927.692 12.437 3.371 14.767 4.239 3.689 10.553 3.262 13.544 1.818 2.761-1.331 6.239-3.869 6.239-3.869 1.774-1.463 3.7-1.56 4.247.185.23.735.599 2.43.941 3.122 1.059 2.137 3.819 1.734 4.974.942 2.533-1.739.616-4.057.261-4.845zm-6.962-20.79c-.217 4.213-.89 12.437-6.483 16.184-1.529 1.025-4.187 2.507-7.416 1.992-.963-.154-2.03-.368-3.286-1.396-1.532-1.25-3.085-5.245-.471-8.354 0 0 4.087-4.572 14.572-10.23.786-.426 3.304-2.449 3.084 1.804z"/><path d="m56.942 29.365s3.507-1.404.188-3.207c-3.582-1.947-.049-3.143 2.217-1.112 2.268 2.031.619 7.77-1.148 6.741-1.765-1.031-2.041-.67-1.257-2.422z"/><path clip-rule="evenodd" d="m66.913 28.176c-.934.608-1.153 1.04-1.15 2.865.001 1.344-2.059-.293-1.746-1.511.313-1.216 2.457-3.415 2.896-3.061s.358 1.475 0 1.707z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m67.957 27.434s.607-.492.518.642c-.088 1.136.755-.833.553-1.405-.204-.574-1.066-.467-1.205 0-.136.465-.243.981.134.763z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m71.391 26.278s-.026-.604.19-1.104c.141-.327.454-.648.819-.908.733-.52-.809-.276-.809-.276l-.805 1.125c0 .001.613 1.949.605 1.163z" fill-rule="evenodd"/><path clip-rule="evenodd" d="m39.854 52.032s-1.464-2.343-4.513.147c0 0-11.479 7.749-20.367 2.366 0 0-2.393-1.379-3.953-3.978 0 0-1.39-2.328.799-3.295 5.112-2.258 11.233-4.52 15.426-6.771 2.947-1.582 10.125-6.264 9.318-12.375 0 0-.308-6.179-6.353-8.893-2.309-1.034-4.881-1.833-9.66-1.282 0 0-4.91.364-9.884 3.792-3.05 2.102-6.192 5.498-8.045 10.247-1.533 3.926-2.209 8.377-1.007 14.854.747 4.03 2.959 8.845 7.518 12.375 3.781 2.924 8.875 4.816 15.046 4.113 0 0 9.541-.872 14.814-6.714.001 0 2.386-2.622.861-4.586zm-30.779-13.765s.348-8.462 8.883-12.246c0 0 2.673-1.304 5.944-1.102 0 0 2.429.432 3.556 1.608 0 0 3.206 2.567.28 5.454 0 0-4.369 5.245-15.434 8.542.001 0-3.537 1.415-3.229-2.256z" fill-rule="evenodd"/></g></svg></a>
+                </div>
+                <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                    <h3 class="font1-2">Business Types</h3>
+                    <ul class="font1">
+                        <li><a href="#">Full Service Restaurant</a></li>
+                        <li><a href="#">Quick Service</a></li>
+                        <li><a href="#">Bars</a></li>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Food Truck</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                    <h3 class="font1-2">Pricing</h3>
+                    <ul class="font1">
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-sm-6 col-xl-3 widget-col">
+                    <h3 class="font1-2">Resources</h3>
+                    <ul class="font1">
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Our Customer</a></li>
+                        <li><a href="#">Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div> -->
+                <div class="col-12 col-md-12 col-sm-12 col-xl-12 widget-bottom">
+                    <ul class="font0-9">
+                        <li>Copyright © SmartPOS</li>
+                        <li><a href="#">Privecy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="plugin/owl/dist/owl.carousel.min.js"></script>
+        <script src="icon/awsm/js/all.min.js"></script>
+        <script src="icon/awsm/js/fontawesome.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.esm.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
